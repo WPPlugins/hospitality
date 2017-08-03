@@ -1,0 +1,13 @@
+<div class="gst-slider">
+    <div class="gst-slide" ng-repeat="image in images" ng-show="image.visible">
+        <img ng-src="{{image.meta_room_slider_image}}" />
+    </div>
+    <div class="arrows">
+        <a class="left-arrow" href="#" ng-click="prev()">
+            <i class="fa fa-arrow-left"></i>
+        </a>
+        <a class="right-arrow" href="#" ng-click="next()">
+            <i class="fa fa-arrow-right"></i>
+        </a>
+    </div>
+</div>

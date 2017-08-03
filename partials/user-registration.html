@@ -1,0 +1,74 @@
+<div class="user-registration-container container" >
+    <span spinner-key="registration-spinner" us-spinner="{radius:8, width:3, length: 6}"></span>
+    <div class="modal-header">
+        <h3 class="text-center">{{ roomReservation.userRegistrationl10n.registrationFormTitle }}</h3>
+        <p class="text-center subheader">{{ roomReservation.userRegistrationl10n.userRegistrationInstructions}}</p>
+    </div>
+    <form name="userRegistration" class="user-registration-form" ng-submit="roomReservation.registerUser()">
+        <div class="modal-body user-registration-info" ng-class="userRegistration.userRegistrationFormClass">
+            <div class="row">
+                <div class="col-xs-12 col-md-6 ">
+                    <input type="text" id="res-first-name" class="gst-name-input reservation-input" ng-model="roomReservation.userRegistrationRequest.firstName"  placeholder="{{ roomReservation.userRegistrationl10n.firstNameLabel }}"required>
+                </div>
+                <div class="col-xs-12 col-md-6 ">
+                    <input type="text" id="res-last-name" class="gst-name-input reservation-input" ng-model="roomReservation.userRegistrationRequest.lastName" placeholder="{{ roomReservation.userRegistrationl10n.lastNameLabel }}" required>
+                </div>
+
+            </div>
+
+            <div class="row">
+                <div class="col-xs-12 col-md-6">
+                    <input type="tel" id="res-phone" class="gst-phone-input reservation-input" ng-model="roomReservation.userRegistrationRequest.phone" placeholder="{{ roomReservation.userRegistrationl10n.phoneLabel }}"  required>
+                </div>
+                <div class="col-xs-12 col-md-6 ">
+                    <input type="tel" id="res-mobile" class="gst-phone-input reservation-input" ng-model="roomReservation.userRegistrationRequest.mobile" placeholder="{{ roomReservation.userRegistrationl10n.mobileLabel }}"  required>
+                </div>
+            </div>
+            <div class="row">
+
+                <div class="col-xs-12 col-md-6 ">
+                    <input type="email" id="res-email" class="gst-email-input reservation-input" ng-model="roomReservation.userRegistrationRequest.email"  placeholder="{{ roomReservation.userRegistrationl10n.emailLabel }}" required>
+                </div>
+
+                <div class="col-xs-12 col-md-6 ">
+                    <input type="text" id="res-address1" class="gst-address-input reservation-input" ng-model="roomReservation.userRegistrationRequest.address1" placeholder="{{ roomReservation.userRegistrationl10n.address1Label }}" required>
+                </div>
+            </div>
+
+            <div class="row">
+
+                <div class="col-xs-12 col-md-6 ">
+                    <input type="text" id="res-address2" class="gst-address-input reservation-input" ng-model="roomReservation.userRegistrationRequest.address2" placeholder="{{ roomReservation.userRegistrationl10n.address2Label }}" >
+                </div>
+
+                <div class="col-xs-12 col-md-6 ">
+                    <input type="text" id="res-city" class="gst-address-input reservation-input" ng-model="roomReservation.userRegistrationRequest.city" placeholder="{{ roomReservation.userRegistrationl10n.cityLabel }}" required>
+                </div>
+            </div>
+
+            <div class="row">
+
+                <div class="col-xs-12 col-md-4 ">
+                    <select id="res-state" class="gst-state-select reservation-select" ng-model="roomReservation.userRegistrationRequest.state" ng-options="state for state in roomReservation.states" required><option value="" disabled selected>{{ roomReservation.stateLabel }}</option></select>
+
+                </div>
+                <div class="col-xs-12 col-md-4 ">
+                    <input type="text" id="res-zip" class="gst-zip-input reservation-input" ng-model="roomReservation.userRegistrationRequest.zip" placeholder="{{ roomReservation.userRegistrationl10n.postalCodeLabel }}" required>
+                </div>
+
+            <div class="row">
+                <div class="col-xs-12">
+                    <select id="res-country" class="gst-country-select reservation-select" ng-model="roomReservation.userRegistrationRequest.country" ng-options="country for country in roomReservation.countries" ng-change="roomReservation.regCountrySelected()" required><option value="" disabled selected>{{ roomReservation.countryLabel }}</option></select>
+                </div>
+            </div>
+
+        </div>
+
+        </div>
+        <div class="modal-footer">
+            <input class="btn btn-default" type="submit" value="{{ roomReservation.userRegistrationl10n.userRegistrationSubmitLabel }}">
+            <button type="button" class="btn btn-default" ng-click="roomReservation.hideUserRegistrationForm()">{{ roomReservation.userRegistrationl10n.loginCancelLabel }}</button>
+        </div>
+    </form>
+
+</div>

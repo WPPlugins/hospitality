@@ -1,0 +1,412 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file. Test.
+ *
+ *
+ */
+.rooms_rate_item {
+  margin-bottom: 30px; }
+
+.room_rates_range {
+  font-weight: bold; }
+
+.room_pricing_list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 100%; }
+
+#room_bottom_container .rooms_amenities_list {
+  margin-left: 0;
+  padding-left: 0;
+  list-style-position: inside; }
+
+#room_bottom_container .rooms_amenities_list li {
+  margin-left: 0; }
+
+.rooms_pricing_list li {
+  float: left;
+  display: inline;
+  width: 175px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  padding-left: 10px;
+  background: #efefef; }
+
+#room_bottom_container .hsp_row {
+  margin-left: 0; }
+
+@media screen and (max-width: 768px) {
+  .gst-modal {
+    width: 85%; }
+
+  .room-info-container .card .card-divider, .card .card-divider {
+    max-width: 30%;
+    width: auto; }
+
+  .room-info-container .card-divider {
+    bottom: 3em; }
+
+  .close-button {
+    font-size: .25em !important; }
+
+  .room-info-container .card h4 {
+    text-rendering: optimizeLegibility; } }
+.hsp_widget {
+  margin-bottom: 20px;
+  overflow: visible; }
+
+#rooms_pt_wrapper {
+  margin-bottom: 20px; }
+
+h3.rooms_price_title {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-weight: bold; }
+
+.rooms_price_date {
+  font-style: italic; }
+
+.rooms_price {
+  font-weight: bold; }
+
+.rooms_pricing_list {
+  margin-left: 0; }
+
+.room_third_widget_area {
+  clear: both; }
+
+#room_bottom_container {
+  padding: 0 .5em; }
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0; }
+
+.rooms_img_link {
+  display: block;
+  padding: 66% 0 0 0; }
+
+.room-thumbnail {
+  position: absolute;
+  top: 0;
+  margin: auto; }
+
+.rooms_slider_container {
+  position: relative;
+  max-width: 960px;
+  width: 100% !important;
+  height: 100% !important;
+  margin-bottom: 20px; }
+
+#rooms_rates .row {
+  max-width: initial; }
+
+.card-divider {
+  background: #fbfdfd;
+  padding: .25em;
+  position: relative;
+  bottom: 4em;
+  width: 25%; }
+
+.card-section {
+  padding: 1em;
+  overflow: initial;
+  padding-top: 0;
+  margin-top: -1.5em; }
+
+.card {
+  margin-bottom: 30px;
+  border: 1px #cccccc solid; }
+
+/* grid CSS  */
+#rooms_rates *,
+#rooms_rates *:before,
+#rooms_rates *:after {
+  box-sizing: border-box; }
+
+#rooms_rates img {
+  border-radius: 0;
+  padding: 0;
+  border: none;
+  border-radius: 0; }
+
+/* Card layout based on Article Card building block */
+.entry-title {
+  display: none; }
+
+#room-post-title {
+  display: inline-block; }
+
+.back-link {
+  padding-left: 3em; }
+
+.location-container {
+  width: 100%;
+  height: auto; }
+
+.location-address-text {
+  margin-bottom: .2em;
+  line-height: 1.2; }
+
+.location-map {
+  width: 100%;
+  height: 375px;
+  max-width: 940px; }
+
+.hsp-amenity-icon-container {
+  margin: .5em 0 .5em auto;
+  min-height: 1.5em; }
+
+.hsp-amenity-icon {
+  display: inline-block;
+  margin-right: .5em; }
+
+div i {
+  padding: .25em; }
+
+.entry-content .card-section h3 {
+  margin: .5em auto; }
+
+.tagline {
+  font-size: .80em;
+  text-align: center; }
+
+.pricings_container h2 {
+  margin: 0; }
+
+/*
+ * Room reservation styles
+*/
+.room-list-thumbnail a img {
+  width: 150px;
+  margin-top: 2%; }
+
+.label-space {
+  margin-left: 3em; }
+
+.room-list-thumbnail {
+  margin-top: 2%; }
+
+.room-list-item {
+  margin-bottom: 2em; }
+
+.room-select-form .room-select-radio {
+  margin-top: 4%; }
+
+.room-select-form .room-list-item h4 {
+  margin-bottom: 0.5em; }
+
+.hidden-section {
+  display: none; }
+
+.displayed-section {
+  display: block; }
+
+.gst-button {
+  margin-bottom: 30px; }
+
+.gst-submit-button {
+  margin-top: 30px;
+  margin-bottom: 30px; }
+
+.room-select-form input.ng-invalid.ng-touched {
+  background-color: #FA787E; }
+
+.room-select-form input.ng-valid.ng-touched {
+  background-color: #78FA89; }
+
+.error-container {
+  color: #cc0000; }
+
+.room-list-thumbnail button {
+  padding: 0; }
+
+.gst-modal {
+  position: fixed;
+  top: 10%;
+  left: 10%;
+  right: 10%;
+  width: 50%;
+  height: 100%;
+  padding: 10px;
+  z-index: 1;
+  overflow: hidden;
+  background-color: #ffffff;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); }
+
+.gst-scrollable {
+  overflow: auto;
+  height: 100%; }
+
+.room-info-container .card {
+  margin-bottom: 0;
+  padding-bottom: 2em; }
+
+.gst-room-info-close-btn {
+  position: absolute;
+  bottom: 0.5em;
+  right: 0.5em;
+  margin-bottom: 0; }
+
+.room-info-container .card h4 {
+  margin-bottom: 0; }
+
+.room-info-address {
+  margin-bottom: 1em; }
+
+.gst-reservation-instruction {
+  font-size: 1.2em;
+  margin: 20px 0;
+  background: #dcedf5;
+  padding: 0 10px; }
+
+/*
+* To position the reserve-spinner over the reservation form:
+*/
+.reservation-form-container {
+  position: relative; }
+
+#gst-login-control {
+  width: 1.5em;
+  text-decoration: none;
+  box-shadow: none;
+  float: right; }
+
+.panel.callout.large.user-controls-container {
+  border: none;
+  background: none; }
+
+.modal-dialog {
+  top: 150px; }
+
+.modal-content {
+  padding: 10px; }
+
+.login-modal .modal-content {
+  width: 295px;
+  margin: auto; }
+
+.login-modal .btn {
+  margin-top: 10px; }
+
+.registration-modal .modal-footer {
+  text-align: center; }
+
+.registration-modal .modal-body input {
+  width: 100%;
+  margin-bottom: 10px; }
+
+.registration-modal .gst-country-select {
+  width: 50%;
+  margin-left: 15px; }
+
+.gst-room-search-row-1 {
+  margin-bottom: 10px; }
+
+.gst-room-search-row-2 {
+  padding: 0;
+  margin-bottom: 10px; }
+
+.gst-selected-amenities-container {
+  padding: 0 !important;
+  margin-bottom: 10px; }
+
+.gst-amenity-select {
+  width: 100%; }
+
+.gst-slider {
+  max-height: 350px;
+  overflow: hidden; }
+
+.arrows {
+  position: absolute;
+  top: 40%;
+  width: 100%; }
+
+.arrows a.left-arrow,
+.arrows a.right-arrow {
+  text-decoration: none;
+  font-size: 2em;
+  box-shadow: none;
+  color: #ffffff;
+  background-color: #000000;
+  border-radius: 1em;
+  width: 1.5em;
+  height: 1.5em;
+  line-height: 1em;
+  opacity: 0.5;
+  outline: 0; }
+
+.left-arrow {
+  float: left;
+  margin-left: 5px; }
+
+.right-arrow {
+  float: right;
+  margin-right: 5px; }
+
+.right-arrow i {
+  margin-left: 3px; }
+
+.gst-slide.ng-hide-add,
+.gst-slide.ng-hide-remove {
+  -webkit-transition: all linear 0.5s;
+  -moz-transition: all linear 0.5s;
+  -o-transition: all linear 0.5s;
+  transition: all linear 0.5s;
+  display: block !important; }
+
+.gst-slide.ng-hide-add.ng-hide-add-active,
+.gst-slide.ng-hide-remove {
+  opacity: 0; }
+
+.gst-slide.ng-hide-add,
+.gst-slide.ng-hide-remove.ng-hide-remove-active {
+  opacity: 1; }
+
+.room-info-main-section {
+  margin-bottom: 15px; }
+
+.hsp-filter {
+  line-height: 300%;
+  padding: 2em 0;
+  text-align: center; }
+  .hsp-filter label {
+    margin-right: 2em; }
+  .hsp-filter input[type=checkbox] {
+    margin: 4px 4px 0; }
+
+.search-form-container {
+  text-align: center; }
+
+.user-controls-container {
+  margin-bottom: 30px; }
+
+.bar-background {
+  background-color: #d9edf7;
+  padding: 1em; }
+
+.truncate-ellipsis {
+  display: block;
+  /* Fallback for non-webkit */
+  display: -webkit-box;
+  max-width: 100%;
+  height: 67.2px;
+  /* Fallback for non-webkit */
+  margin: 0 auto;
+  font-size: 16px;
+  line-height: 1.4;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis; }
+
+.gst-mb-guest-information input {
+  float: right; }
+
+/*# sourceMappingURL=hospitality-public.css.map */

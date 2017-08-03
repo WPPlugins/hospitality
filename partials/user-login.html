@@ -1,0 +1,30 @@
+<div class="user-login-container">
+    <span spinner-key="login-spinner" us-spinner="{radius:8, width:3, length: 6}"></span>
+    <form name="login" class="login-form" ng-submit="roomReservation.login()">
+        <div class="container user-login-info" ng-class="userRegistration.loginFormClass">
+            <div class="modal-header">
+                <h3 class="text-center">{{ roomReservation.userRegistrationl10n.loginFormTitle }}</h3>
+            </div>
+            <div class="modal-body">
+                <div class="row">
+                    <div class="col-xs-12 ">
+                        <input type="text" id="login-user-name" class="gst-name-input reservation-input" ng-model="roomReservation.loginRequest.userName"  placeholder="{{ roomReservation.userRegistrationl10n.userNameLabel }}"required>
+                    </div>
+                    <div class="col-xs-12  ">
+                        <input type="password" id="login-password" class="gst-password-input reservation-input" ng-model="roomReservation.loginRequest.password" placeholder="{{ roomReservation.userRegistrationl10n.passwordLabel }}" required>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12">
+                    <p>{{ roomReservation.loginError }}</p>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <input class="btn btn-default" type="submit" value="{{ roomReservation.userRegistrationl10n.loginSubmitLabel }}">
+                <button type="button" class="btn btn-default" ng-click="roomReservation.hideLoginForm()">{{ roomReservation.userRegistrationl10n.loginCancelLabel }}</button>
+            </div>
+
+        </div>
+    </form>
+</div>

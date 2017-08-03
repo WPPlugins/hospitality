@@ -1,0 +1,19 @@
+<div class="room-list-container" ng-class="roomReservation.roomListOuterClass">
+    <div class="room-list">
+        <div class="gst-room-select-list" ng-class="roomReservation.roomListClass">
+            <div  class="room-select-radio" ng-repeat="room in roomReservation.rooms">
+                <div class="row room-list-item">
+                    <input class="col-xs-1  room-select-radio" type="radio" value="{{ room.id }}" ng-change="roomReservation.openReservationForm( $index )" ng-model="roomReservation.request.selectedRoomID">
+                    <div class="col-xs-2  room-list-thumbnail">
+                        <button class="gst-room-info-btn gst-button" type="button" ng-click="roomReservation.showRoomInfo( room )"><img  src="{{ room.thumbnail_url }}"></button>
+                    </div>
+                    <div class="col-xs-8  room-list-info">
+                        <h4>{{  room.title }}</h4>
+                        <p>{{ room.room_excerpt }}<br>
+                            {{ roomReservation.pricePerDayLabel }}: {{ roomReservation.currencySymbol }}{{ room.reservation_pricing.per_day | number:2 }}, {{ roomReservation.totalLabel }}: {{ roomReservation.currencySymbol }}{{ room.reservation_pricing.price }}</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

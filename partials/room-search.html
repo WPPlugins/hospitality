@@ -1,0 +1,99 @@
+<div class="container-fluid">
+
+    <div class="row user-controls-container" ng-class="roomReservation.userControlsClass">
+        <div class="col-xs-offset-6 col-sm-offset-8 col-xs-6 col-sm-4">
+            <div class="row user-controls-container">
+                <div class="col-xs-6">
+                    <div  ng-class="roomReservation.registrationControlClass">
+                        <a title="{{ roomReservation.userRegistrationl10n.registrationMessage }}" ng-click="roomReservation.showUserRegistrationForm()"><i class="fa fa-user-plus" aria-hidden="true"></i>{{ roomReservation.userRegistrationl10n.registrationLinkContent }}</a>
+                    </div>
+                </div>
+                <div class="col-xs-6">
+                    <a  title="{{ roomReservation.loginControlTitle }}" ng-click="roomReservation.toggleLogin()" ng-class="roomReservation.loginControlClass"><span ng-bind-html="roomReservation.loginControl"></span>{{ roomReservation.loginControlTitle}}</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="error-container">
+        <span ng-show="searchRoomForm.dateOfArrival.$error.arrivalDateError">{{ roomReservation.dateOfArrivalErrorMessage }}</span>
+    </div>
+    <div class="error-container" ng-class="roomReservation.errorContainerClass">
+        <p>{{ roomReservation.errorMessage }}</p>
+    </div>
+
+        <div class="col-xs-12"  ng-class="roomReservation.searchFormClass">
+            <form class="form-inline" name="searchRoomForm" ng-submit="roomReservation.searchRooms()">
+<div class="bar-background text-center">
+               <div class="form-group">
+                            <ng-datepicker id="date-of-arrival" name="dateOfArrival" locale="en" view-format="MMMM DD, YYYY" format="MMMM DD, YYYY" ng-model="roomReservation.request.dateOfArrival" ng-change="roomReservation.searchRooms()" validate-date-of-arrival></ng-datepicker>
+                </div>
+                <div class="form-group">
+                    <input id="length-of-stay"  name=="lengthOfStay" placeholder="{{ roomReservation.lengthOfStayLabel }}" type="number" ignore-mouse-wheel ng-model="roomReservation.request.lengthOfStay" ng-change="roomReservation.searchRooms()" required>
+                </div>
+                <div class="form-group">
+                    <input id="number-of-occupants"  name=="numberOfOccupants" placeholder="{{ roomReservation.numberOfGuestsLabel }}" type="number" ignore-mouse-wheel ng-model="roomReservation.request.numberOfOccupants" ng-change="roomReservation.searchRooms()"
+                        required>
+                </div>
+                <div class="form-group">
+                    <input id="maximum-price"  name=="maximumPrice" placeholder="{{ roomReservation.maxPriceLabel }}" type="number" min="0" ignore-mouse-wheel ng-model="roomReservation.request.maximumPrice" ng-change="roomReservation.searchRooms()">
+                </div>
+</div>
+                <div class="form-group col-xs-12 hsp-filter">
+
+                    <h4>{{ roomReservation.filterLabel }}</h4>
+                    <label ng-repeat="amenity in roomReservation.searchableAmenities ">
+                        <input type="checkbox" checklist-model="roomReservation.request.selectedAmenities" checklist-value="amenity" ng-click="roomReservation.searchRooms()"> {{ amenity }}
+                    </label>
+                </div>
+
+
+            </form>
+        </div>
+
+
+    <room-browse room-reservation="roomReservation"></room-browse>
+    <reservation-form room-reservation="roomReservation"></reservation-form>
+    <div class="error-container" ng-class="roomReservation.errorContainerClass">
+        <p>{{ roomReservation.errorMessage }}</p>
+    </div>
+    <div class="confirmation-container" ng-class="roomReservation.confirmationClass">
+        <h3>{{ roomReservation.confirmationHeading }} </h3>
+        <p>{{ roomReservation.confirmationMessage }} {{ roomReservation.confirmation.id }}</p>
+        <table class="table table-responsive">
+            <tr>
+                <td>{{ roomReservation.firstNameLabel }}</td>
+                <td>{{ roomReservation.confirmation.first_name }} </td>
+            </tr>
+            <tr>
+                <td>{{ roomReservation.lastNameLabel }}</td>
+                <td>{{ roomReservation.confirmation.last_name }} </td>
+            </tr>
+            <tr>
+                <td>{{ roomReservation.dateOfArrivalLabel }}</td>
+                <td>{{ roomReservation.confirmation.start_time | date:'medium' }} </td>
+            </tr>
+            <tr>
+                <td>{{ roomReservation.lengthOfStayLabel }}</td>
+                <td>{{ roomReservation.confirmation.duration / 86400000 }} {{ roomReservation.reservationTimeUnit }}</td>
+            </tr>
+            <tr>
+                <td>{{ roomReservation.amountChargedLabel }}</td>
+                <td>{{ roomReservation.currencySymbol }}{{ roomReservation.confirmation.payment_amount }} </td>
+            </tr>
+            <tr>
+                <td>{{ roomReservation.checkInTimeLabel }}</td>
+                <td>{{ roomReservation.checkInTime }} </td>
+            </tr>
+            <tr>
+                <td>{{ roomReservation.checkOutTimeLabel }}</td>
+                <td>{{ roomReservation.checkOutTime }} </td>
+            </tr>
+        </table>
+        <div class="gst-load-search-page">
+            <button class="gst-room-load-search-page gst-button" type="button" ng-click="roomReservation.reloadSearchPage()">{{ roomReservation.makeAnotherReservationLabel }}</button>
+        </div>
+    </div>
+</div>
+<span spinner-key="load-spinner" us-spinner="{radius:8, width:3, length: 6}"></span>
+<span spinner-key="logout-spinner" us-spinner="{radius:8, width:3, length: 6}"></span>

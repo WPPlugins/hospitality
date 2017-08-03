@@ -1,0 +1,167 @@
+<div class="reservation-form-container">
+    <span spinner-key="reserve-spinner" us-spinner="{radius:8, width:3, length: 6}"></span>
+    <form name="reserveRoomForm" class="form-horizontal" role="form" ng-submit="roomReservation.reserveRoom()">
+        <div class="reservation-info" ng-class="roomReservation.reservationFormClass">
+            <h3 class="bg-info">{{ roomReservation.roomReservationOpenLabel }}</h3>
+            <div class="form-group">
+                <div class="col-xs-12 ">
+                    <p class="lead">The <span class="text-info">{{ roomReservation.selectedRoom.title }} for {{ roomReservation.request.lengthOfStay }} {{ roomReservation.reservationTimeUnit }}</span> and arrival date is <span class="text-info">{{ roomReservation.request.dateOfArrival | date:'MM-dd-yyyy' }}</span>.</p>
+                    <div class="form-group">
+                        <div class="col-xs-6 ">
+                            <label for="res-adults">{{ roomReservation.adultsLabel }}</label>
+                            <input type="number" ignore-mouse-wheel id="res-adults" class="form-control" min="1" ng-model="roomReservation.request.adults" required>
+                        </div>
+                        <div class="col-xs-6 ">
+                            <label for="res-children">{{ roomReservation.childrenLabel }}</label>
+                            <input type="number" ignore-mouse-wheel id="res-children" class="form-control"  min="0" ng-model="roomReservation.request.children" required>
+                        </div>
+                    </div>
+                      <table class="table table-condensed">
+                      <tr class="success">
+                        <td><span class="table-text">{{ roomReservation.pricePerDayLabel }}</span></td><td> {{ roomReservation.currencySymbol }}{{ roomReservation.selectedRoom.reservation_pricing.per_day | number:2 }}</span></td>
+                        </tr>
+                        <tr class="success">
+                        <td>{{ roomReservation.roomAmountLabel }}</td><td> {{ roomReservation.currencySymbol }}{{ roomReservation.selectedRoom.reservation_pricing.room_amount | number:2 }}</td>
+                      </tr>
+                        <tr class="success">
+                          <td>{{ roomReservation.feeAmountLabel }}</td><td> {{ roomReservation.currencySymbol }}{{ roomReservation.selectedRoom.reservation_pricing.fee_amount | number:2 }}</td>
+                        </tr>
+                        <tr class="success">
+                        <td>{{ roomReservation.taxAmountLabel }}</td><td> {{ roomReservation.currencySymbol }}{{ roomReservation.selectedRoom.reservation_pricing.tax_amount | number:2 }}</td>
+                      </tr>
+                      <tr class="info">
+                        <td><span class="table-text">{{ roomReservation.totalLabel }}</span></td><td> {{ roomReservation.currencySymbol }}{{ roomReservation.selectedRoom.reservation_pricing.price | number:2  }}</span></td>
+                        </tr>
+
+                    </table>
+
+                </div>
+            </div>
+            <fieldset>
+              <legend>Contact</legend>
+            <div class="form-group">
+                <div class="col-xs-12 col-sm-6">
+
+                    <input type="text" id="res-first-name" placeholder="{{ roomReservation.firstNameLabel }}" aria-label="{{ roomReservation.firstNameLabel }}" class="form-control" ng-model="roomReservation.request.firstName" required>
+                </div>
+                <div class="col-xs-12 col-sm-6">
+
+                    <input type="text" id="res-last-name" placeholder="{{ roomReservation.lastNameLabel }}" aria-label="{{ roomReservation.lastNameLabel }}"  class="form-control" ng-model="roomReservation.request.lastName" required>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-xs-12 col-md-6">
+
+                    <input type="tel" id="res-phone" class="form-control" placeholder="{{ roomReservation.phoneLabel }}" aria-label="{{ roomReservation.phoneLabel }}"  class="form-control" ng-model="roomReservation.request.phone" required>
+                </div>
+                <div class="col-xs-12 col-md-6">
+
+                    <input type="email" id="res-email" class="form-control" placeholder="{{ roomReservation.emailLabel }}" aria-label="{{ roomReservation.emailLabel }}" class="form-control" ng-model="roomReservation.request.email" required>
+                </div>
+            </div>
+
+            <div class="form-group">
+
+                <div class="col-xs-12 col-md-6">
+
+                    <input type="text" id="res-address1" placeholder="{{ roomReservation.address1Label }}" class="form-control" ng-model="roomReservation.request.address1" required>
+                </div>
+                <div class="col-xs-12 col-md-6">
+
+                    <input type="text" placeholder="{{ roomReservation.address2Label }}" id="res-address2" class="form-control" ng-model="roomReservation.request.address2">
+                </div>
+            </div>
+            <div class="form-group">
+
+                <div class="col-sm-3 ">
+
+                    <input type="text" id="res-city" placeholder="City" aria-label="City" class="form-control" ng-model="roomReservation.request.city" required>
+                </div>
+                <div class="col-sm-3 ">
+
+                    <select id="res-state" class="form-control"  default="State" placeholder="State" aria-label="State" ng-model="roomReservation.request.state" ng-options="state for state in roomReservation.states" ></select>
+                  </div>
+                    <div class="col-sm-3 ">
+
+                        <input type="text" id="res-zip" class="form-control" placeholder="ZIP" inputmode="numeric" aria-label="ZIP" ng-model="roomReservation.request.zip" required>
+                    </div>
+                    <div class="col-sm-3 ">
+
+                        <select id="res-country" class="form-control" placeholder="Country" aria-label="Country" ng-model="roomReservation.request.country" ng-options="country for country in roomReservation.countries" ng-change="roomReservation.countrySelected()" ></select>
+                    </div>
+
+            </div>
+
+
+            </fieldset>
+
+            <div class="payment-info" ng-class="roomReservation.paymentInfoClass">
+
+                <div class="form-group">
+                    <div class="col-xs-6 ">
+                        <label for="res-name-on-card">{{ roomReservation.nameOnCardLabel }}</label>
+                        <input type="text" id="res-name-on-card" class="form-control" ng-model="roomReservation.request.nameOnCard" {{ roomReservation.cardInfoRequired }} >
+                    </div>
+                    <div class="col-xs-6 ">
+                        <label for="res-card-number">{{ roomReservation.cardNumberLabel }}</label>
+                        <input type="text" id="res-card-number" class="form-control" inputmode="numeric" ng-model="roomReservation.request.cardNumber" {{ roomReservation.cardInfoRequired }} data-stripe="number">
+                    </div>
+                </div>
+
+
+
+                <div class="form-group">
+                    <div class="col-xs-6 ">
+                        <label for="res-card-expiration-month">{{ roomReservation.cardExpirationLabel }}</label>
+                    </div>
+                    <div class="col-xs-6 ">
+                        <label for="res-card-cvc">{{ roomReservation.cardCVCLabel }}</label>
+                    </div>
+                </div>
+
+
+
+                <div class="form-group">
+                    <div class="col-xs-3 ">
+                        <input type="text" size="2" id="res-card-expiration-month" class="gst-card-expiration-month-input reservation-input" ng-model="roomReservation.request.cardExpirationMonth" {{ roomReservation.cardInfoRequired }} data-stripe="exp_month">
+                    </div>
+                    <div class="col-xs-3 ">
+                        <label for="res-card-expiration-year">{{  }}</label>
+                        <input type="text" size="2" id="res-card-expiration-year" class="gst-card-expiration-year-input reservation-input" ng-model="roomReservation.request.cardExpirationYear" {{ roomReservation.cardInfoRequired }} data-stripe="exp_year">
+                    </div>
+                    <div class="col-xs-6 ">
+                        <input type="text" size="3" id="res-card-cvc" class="gst-card-cvc-input reservation-input" ng-model="roomReservation.request.cardCVC" {{ roomReservation.cardInfoRequired }} data-stripe="cvc">
+                    </div>
+                </div>
+            </div>
+
+            <fieldset>
+              <legend>Select Payment Method</legend>
+
+            <div class="radio">
+                  <label>
+                    <input ng-required="!roomReservation.request.paymentMethod" type="radio" ng-model="roomReservation.request.paymentMethod" value="{{ roomReservation.paymentGatewayPayPalExpress }}" ng-change="roomReservation.toggleOfflinePaymentInstructions()"><i style="color:#3c86bc;" class="fa fa-paypal" aria-hidden="true"></i>{{ roomReservation.payPalLabel  }}
+                </label>
+            </div>
+
+            <div class="radio">
+                <label>
+                    <input ng-required="!roomReservation.request.paymentMethod" type="radio" ng-model="roomReservation.request.paymentMethod" value="{{ roomReservation.paymentGatewayOffline }}" ng-change="roomReservation.toggleOfflinePaymentInstructions()"><span data-toggle="tooltip" data-placement="top" title="We will call you to confirm reservation and collect payment info"><i  class="fa fa-info-circle" aria-hidden="true"></i> {{ roomReservation.offlineLabel }}</span>
+            </label>
+            </div>
+
+          </fieldset>
+            <div class="form-group offline-instructions" ng-class="roomReservation.offlineInstructionsClass">
+                <div class="col-xs-12 ">
+                    <p class="lead"> {{ roomReservation.paymentGatewayOfflineInstructions }}</p>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-xs-12 ">
+                    <input class="btn-primary" ng-disabled="roomReservation.reserveButtonIsDisabled" type="submit" value="Reserve Room">
+                </div>
+            </div>
+
+        </div>
+    </form>
+</div>

@@ -1,0 +1,58 @@
+<div id="gst-room-browse">
+    <div id="gst-room-browse-list" class="container-fluid">
+      <div class="row">
+          <div class="col-xs-12 col-md-6 col-lg-4" ng-repeat="room in roomReservation.rooms" >
+              <div class="thumbnail">
+                <div>
+                  <a  class="rooms_img_link" ng-click="roomReservation.showRoomDetail( room )" title="{{ room.title }}" style="background-image: url({{ room.thumbnail_url }}); background-size: cover;" ></a>
+                    <div class="card-divider">{{ room.price_range }}</div>
+                </div>
+                <div class="caption">
+                  <h3>{{ room.title }} </h3>
+                    <div class="truncate-ellipsis">
+                            {{ room.room_excerpt }}
+                    </div>
+                    <div class="hsp-amenity-icon-container">
+                        <i  title="{{ amenity_icon.title }}" class="fa fa-{{ amenity_icon.icon }}" ng-repeat="amenity_icon in room.amenity_icons"></i>
+                    </div>
+                    <a class="btn btn-default" title="{{ roomReservation.detailsTitle }}" ng-click="roomReservation.showRoomDetail( room )">{{ roomReservation.detailsLabel }}</a>
+                    <a class="btn btn-default" title="{{ roomReservation.detailsTitle }}" ng-click="roomReservation.showRoomDetail( room )">{{ roomReservation.reserveLabel }}</a>
+                </div>
+              </div>
+          </div>
+        </div>
+    </div>
+    <div id="gst-scroll-to-detail"></div>
+    <div id="gst-room-browse-detail" ng-class="roomReservation.roomDetailClass">
+        <h1>{{ roomReservation.selectedRoom.title }} </h1>
+        <div id="guestaba_slider-{{ roomReservation.selectedRoom.id }}" class="rooms_slider_container">
+            <div class="hsp_slider">
+                <slider slider-config="roomReservation.selectedRoom.slider_config" images="roomReservation.selectedRoom.slider_images"></slider>
+            </div>
+        </div>
+        <div id="room_bottom_container">
+            <div id="room_desc_container">
+                 <p class="subheader">{{ roomReservation.selectedRoom.room_slogan }}</p>
+                 <p class="room-desc">{{ roomReservation.selectedRoom.room_desc }}</p>
+            </div>
+            <div class="top-shared-content-area">
+                <span ng-bind-html="roomReservation.topSharedContentArea"></span>
+            </div>
+            <div class="row hsp_row">
+                <div class="room_amenities col-lg-8 ">
+                    <h2>{{ roomReservation.amenitiesTitle }}</h2>
+                    <ul style="list-style-type:none;">
+                        <li ng-repeat="amenity in roomReservation.selectedRoom.amenities">
+                            <i class="fa fa-{{ roomReservation.selectedRoom.amenity_list_icon }}"></i>{{ amenity.title }}
+                        </li>
+                    </ul>
+                </div>
+                <!--  -->
+                <div class="middle-shared-content-area col-lg-4 ">
+                    <span ng-bind-html="roomReservation.middleSharedContentArea"></span>
+                    <a ng-click="roomReservation.showRoomInfo( roomReservation.selectedRoom )">{{ roomReservation.seeMoreInfoLabel }}</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

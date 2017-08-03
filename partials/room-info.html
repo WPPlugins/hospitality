@@ -1,0 +1,39 @@
+
+<div class="modal-header">
+    <button class="close" ng-click="roomReservation.hideRoomInfo()" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+    <h3 class="modal-title">{{ roomReservation.selectedRoom.title }}</h3>
+</div>
+ <div class="modal-body">
+     <div class="room-info-main-section">
+         <h4>{{ roomReservation.dailyPriceLabel }}: {{ roomReservation.selectedRoom.current_price }}</h4>
+         <h4>{{ roomReservation.roomDescriptionLabel }}</h4>
+         <p>{{ roomReservation.selectedRoom.room_excerpt }}</p>
+     </div>
+
+    <div class="bottom-shared-content-area">
+        <span ng-bind-html="roomReservation.bottomSharedContentArea"></span>
+    </div>
+
+    <div class="room-info-location-section">
+        <h4>{{ roomReservation.locationsLabel }}</h4>
+        <div class="room-info-addresses">
+            <div class="room-info-address" ng-repeat="roomAddress in roomReservation.selectedRoom.room_addresses">
+                <h5>{{ roomAddress.title }}</h5>
+                <p>
+                    {{ roomAddress.address1 }}<br>
+                    {{ roomAddress.city }}<br>
+                    {{ roomAddress.state}}, {{roomAddress.post_code}}
+                </p>
+            </div>
+        </div>
+        <ng-map trigger-resize="true" center="{{ roomReservation.selectedRoom.map_center }}" zoom-to-include-markers="{{ roomReservation.selectedRoom.room_addresses.length > 1 ? true : false }}" zoom="14" scrollwheel="false">
+            <marker position="{{ roomAddress.address1 + ',' + roomAddress.city + ',' + roomAddress.state + ',' + roomAddress.post_code }}" title="{{ roomAddress.title }}" ng-repeat="roomAddress in roomReservation.selectedRoom.room_addresses"></marker>
+        </ng-map>
+    </div>
+</div><!-- .modal-body -->
+
+
+<div class="modal-footer">
+    <button class="btn btn-info" ng-click="roomReservation.hideRoomInfo()">Close</button>
+</div>
+        

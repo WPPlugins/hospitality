@@ -1,0 +1,2375 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Hospitality WordPress Plugin\n"
+"POT-Creation-Date: 2016-11-28 12:31-0800\n"
+"PO-Revision-Date: 2016-11-28 12:33-0800\n"
+"Last-Translator: Wes Kempfer <wkempferjr@gmail.com>\n"
+"Language-Team: Guestaba, Wes Kempfer, James Nobles <wkemfperjr@tnotw.com>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.11\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: grunt-init\n"
+"X-Poedit-SearchPathExcluded-1: vendor\n"
+"X-Poedit-SearchPathExcluded-2: node_modules\n"
+
+#: admin/class-hospitality-admin.php:138
+msgid "The Hospitality plugin is installed."
+msgstr "The Hospitality plugin is installed."
+
+#: admin/class-hospitality-admin.php:139
+msgid "See our knowledgebase for setup instructions."
+msgstr "See our knowledgebase for setup instructions."
+
+#: admin/class-hospitality-admin.php:170
+msgid "Error retrieving amenity set list."
+msgstr "Error retrieving amenity set list."
+
+#: admin/class-hospitality-admin.php:171
+msgid "Error retrieving pricing model."
+msgstr "Error retrieving pricing model."
+
+#: admin/class-hospitality-admin.php:172
+#: public/class-hospitality-public.php:275
+msgid "Server error:"
+msgstr "Server error:"
+
+#: admin/class-hospitality-admin.php:173
+msgid "No amenity set selected."
+msgstr "No amenity set selected."
+
+#: admin/class-hospitality-admin.php:174
+msgid "No pricing model selected."
+msgstr "No pricing model selected."
+
+#: admin/class-hospitality-admin.php:175
+msgid "Jan"
+msgstr "Jan"
+
+#: admin/class-hospitality-admin.php:176
+msgid "Feb"
+msgstr "Feb"
+
+#: admin/class-hospitality-admin.php:177
+msgid "Mar"
+msgstr "Mar"
+
+#: admin/class-hospitality-admin.php:178
+msgid "Apr"
+msgstr "Apr"
+
+#: admin/class-hospitality-admin.php:179
+msgid "May"
+msgstr "May"
+
+#: admin/class-hospitality-admin.php:180
+msgid "Jun"
+msgstr "Jun"
+
+#: admin/class-hospitality-admin.php:181
+msgid "Jul"
+msgstr "Jul"
+
+#: admin/class-hospitality-admin.php:182
+msgid "Aug"
+msgstr "Aug"
+
+#: admin/class-hospitality-admin.php:183
+msgid "Sep"
+msgstr "Sep"
+
+#: admin/class-hospitality-admin.php:184
+msgid "Oct"
+msgstr "Oct"
+
+#: admin/class-hospitality-admin.php:185
+msgid "Nov"
+msgstr "Nov"
+
+#: admin/class-hospitality-admin.php:186
+msgid "Dec"
+msgstr "Dec"
+
+#: admin/class-hospitality-admin.php:187
+msgid "Sunday"
+msgstr "Sunday"
+
+#: admin/class-hospitality-admin.php:188
+msgid "Monday"
+msgstr "Monday"
+
+#: admin/class-hospitality-admin.php:189
+msgid "Tuesday"
+msgstr "Tuesday"
+
+#: admin/class-hospitality-admin.php:190
+msgid "Wednesday"
+msgstr "Wednesday"
+
+#: admin/class-hospitality-admin.php:191
+msgid "Thursday"
+msgstr "Thursday"
+
+#: admin/class-hospitality-admin.php:192
+msgid "Friday"
+msgstr "Friday"
+
+#: admin/class-hospitality-admin.php:193
+msgid "Saturday"
+msgstr "Saturday"
+
+#: admin/class-hospitality-admin.php:194
+msgid "Coverage gaps:"
+msgstr "Coverage gaps:"
+
+#: admin/class-hospitality-admin.php:195
+msgid "Coverage overlaps:"
+msgstr "Coverage gaps:"
+
+#: admin/class-hospitality-admin.php:196
+msgid "Geocode was successful. Update this post to save the coordinates."
+msgstr "Geocode was successful. Update this post to save the coordinates."
+
+#: admin/class-hospitality-admin.php:197
+msgid "Warning: This change will conflict with another reservation."
+msgstr "Warning: This change will conflict with another reservation."
+
+#: admin/class-hospitality-admin.php:198
+msgid "Geocode failed:"
+msgstr "Geocode was successful. Update this post to save the coordinates."
+
+#: hospitality.php:90
+msgid "paid"
+msgstr "paid"
+
+#: hospitality.php:94
+msgid "pending"
+msgstr "paid"
+
+#: hospitality.php:98
+msgid "45.5194483"
+msgstr "45.5194483"
+
+#: hospitality.php:102
+msgid "-122.6790769"
+msgstr "45.5194483"
+
+#: includes/class-hospitality-ajax.php:42
+#: includes/class-hospitality-ajax.php:55
+msgid "Invalid rooms slider request."
+msgstr "Invalid rooms slider request."
+
+#: includes/class-hospitality-ajax.php:46
+msgid "Could not get slider config for post."
+msgstr "Could not get slider config for post."
+
+#: includes/class-hospitality-ajax.php:59
+msgid "Could not geocoding for address."
+msgstr "Could not geocoding for address."
+
+#: includes/class-hospitality-ajax.php:67
+msgid "Invalid get amenity set list request."
+msgstr "Invalid get amenity set list request."
+
+#: includes/class-hospitality-ajax.php:72
+#: includes/class-hospitality-ajax.php:155
+msgid "Could not get amenity set list with specified post ID."
+msgstr "Could not get amenity set list with specified post ID."
+
+#: includes/class-hospitality-ajax.php:78
+msgid "Could not get locations."
+msgstr "Could not get locations."
+
+#: includes/class-hospitality-ajax.php:84
+#: includes/class-hospitality-ajax.php:109
+#: includes/class-hospitality-ajax.php:129
+msgid "Invalid search rooms request."
+msgstr "Invalid search rooms request."
+
+#: includes/class-hospitality-ajax.php:89
+#: includes/class-hospitality-ajax.php:114
+msgid "Error searching for rooms."
+msgstr "Could not get locations."
+
+#: includes/class-hospitality-ajax.php:96
+msgid "Invalid room reservation request."
+msgstr "Invalid room reservation request."
+
+#: includes/class-hospitality-ajax.php:101
+msgid "Error reserving room."
+msgstr "Error reserving room."
+
+#: includes/class-hospitality-ajax.php:134
+msgid "Error checking room availability."
+msgstr "Error checking room availability."
+
+#: includes/class-hospitality-ajax.php:141
+msgid "Invalid get room locations request."
+msgstr "Invalid get room locations request."
+
+#: includes/class-hospitality-ajax.php:146
+msgid "Could not get room locations with specified post ID."
+msgstr "Could not get room locations with specified post ID."
+
+#: includes/class-hospitality-ajax.php:151
+msgid "Invalid add room locations request."
+msgstr "Invalid add room locations request."
+
+#: includes/class-hospitality-ajax.php:161
+#: includes/class-hospitality-ajax.php:183
+msgid "Invalid modify room location request."
+msgstr "Invalid modify room location request."
+
+#: includes/class-hospitality-ajax.php:166
+msgid "Could not modify room location with specified post ID."
+msgstr "Could not modify room location with specified post ID."
+
+#: includes/class-hospitality-ajax.php:172
+msgid "Invalid delete room location request."
+msgstr "Invalid delete room location request."
+
+#: includes/class-hospitality-ajax.php:177
+msgid "Could not delete room location with specified post ID."
+msgstr "Could not delete room location with specified post ID."
+
+#: includes/class-hospitality-ajax.php:188
+msgid "Could not validate room location."
+msgstr "Could not validate room location."
+
+#: includes/class-hospitality-ajax.php:194
+msgid "Invalid get price model request."
+msgstr "Invalid get price model request."
+
+#: includes/class-hospitality-ajax.php:199
+msgid "Could not get price model with specified post ID."
+msgstr "Could not get price model with specified post ID."
+
+#: includes/class-hospitality-ajax.php:205
+#: includes/class-hospitality-ajax.php:212
+#: includes/class-hospitality-ajax.php:219
+msgid "Could not get post edit options."
+msgstr "Could not get post edit options."
+
+#: includes/class-hospitality-ajax.php:227
+msgid "Could not retrieve user info."
+msgstr "Could not retrieve user info."
+
+#: includes/class-hospitality-ajax.php:235
+msgid "Could not register user."
+msgstr "Could not register user."
+
+#: includes/class-hospitality-ajax.php:244
+msgid "Could not logout"
+msgstr "Could not logout"
+
+#: includes/class-hospitality-ajax.php:249
+msgid "Unknown ajax request sent from client."
+msgstr "Unknown ajax request sent from client."
+
+#: includes/class-hospitality-ajax.php:281
+msgid "User is logged out."
+msgstr "User is logged out."
+
+#: includes/class-hospitality-ajax.php:298
+msgid "Wrong username or password."
+msgstr "Wrong username or password."
+
+#: includes/class-hospitality-ajax.php:300
+msgid "Login successful, redirecting..."
+msgstr "Login successful, redirecting..."
+
+#: includes/class-hospitality-ajax.php:412
+msgid "No metadata for post"
+msgstr "No metadata for post"
+
+#: includes/class-hospitality-ajax.php:495
+#: includes/class-hospitality-ajax.php:518
+#: includes/class-hospitality-ajax.php:536
+msgid "Could not JSON decode request."
+msgstr "Could not JSON decode request."
+
+#: includes/class-hospitality-ajax.php:575
+msgid "Reservation request contains invalid field values."
+msgstr "Reservation request contains invalid field values."
+
+#: includes/class-hospitality-ajax.php:706
+msgid "Could not JSON decode request for registration."
+msgstr "Could not JSON decode request for registration."
+
+#: includes/class-hospitality-amenity-sets-meta-box.php:22
+msgid "Amenity Sets Options"
+msgstr "Amenity Sets Options"
+
+#: includes/class-hospitality-amenity-sets-meta-box.php:49
+msgid "Amenity Set Settings"
+msgstr "Amenity Set Settings"
+
+#: includes/class-hospitality-amenity-sets-meta-box.php:51
+#: includes/class-hospitality-pricing-models-meta-box.php:43
+#: includes/class-hospitality-rooms-meta-box.php:91
+msgid "Description"
+msgstr "Description"
+
+#: includes/class-hospitality-amenity-sets-meta-box.php:60
+#, php-format
+msgid "Use this %s to find icons for amenity lists"
+msgstr "Use this %s to find icons for amenity lists"
+
+#: includes/class-hospitality-amenity-sets-meta-box.php:60
+msgid "link to Font Awesome"
+msgstr "link to Font Awesome"
+
+#: includes/class-hospitality-amenity-sets-meta-box.php:64
+msgid "Amenity Set List"
+msgstr "Amenity Set Settings"
+
+#: includes/class-hospitality-amenity-sets-meta-box.php:137
+#: includes/class-hospitality-rooms-meta-box.php:510
+msgid ""
+"Enter a brief description of the amenity to be displayed with the room "
+"listing."
+msgstr ""
+"Enter a brief description of the amenity to be displayed with the room "
+"listing."
+
+#: includes/class-hospitality-amenity-sets-meta-box.php:138
+msgid ""
+"Enter the name of a Font Awesome icon. For example, enter &quot;clock&quot; "
+"to display &quot;fa-clock.&quot; Specify icons only for those amenities for "
+"which you want to display an icon in the room listing."
+msgstr ""
+"Enter the name of a Font Awesome icon. For example, enter &quot;clock&quot; "
+"to display &quot;fa-clock.&quot; Specify icons only for those amenities for "
+"which you want to display an icon in the room listing."
+
+#: includes/class-hospitality-amenity-sets-meta-box.php:139
+msgid "Click here to delete amenity."
+msgstr "Click here to delete amenity."
+
+#: includes/class-hospitality-amenity-sets-meta-box.php:218
+#: includes/class-hospitality-rooms-meta-box.php:384
+msgid "Amenity description goes here."
+msgstr "Amenity description goes here."
+
+#: includes/class-hospitality-amenity-sets-meta-box.php:219
+#: includes/class-hospitality-rooms-meta-box.php:385
+msgid "Enter optional Font Awesome icon name here."
+msgstr "Enter optional Font Awesome icon name here."
+
+#: includes/class-hospitality-amenity-sets-meta-box.php:220
+#: includes/class-hospitality-pricing-models-meta-box.php:163
+#: includes/class-hospitality-rooms-meta-box.php:146
+#: includes/class-hospitality-rooms-meta-box.php:386
+#: includes/class-hospitality-rooms-meta-box.php:419
+#: includes/class-hospitality-rooms-meta-box.php:478
+msgid "X"
+msgstr "X"
+
+#: includes/class-hospitality-demo.php:116
+msgid "Failed to load demo locations."
+msgstr "Failed to load demo locations."
+
+#: includes/class-hospitality-demo.php:137
+msgid "Demo loader failed load images."
+msgstr "Demo loader failed load images."
+
+#: includes/class-hospitality-demo.php:188
+#: includes/class-hospitality-demo.php:193
+msgid "Demo Slide"
+msgstr "Demo Slide"
+
+#: includes/class-hospitality-demo.php:190
+#: includes/class-hospitality-demo.php:195
+msgid "Demo Slide Description"
+msgstr "Demo Slide Description"
+
+#: includes/class-hospitality-demo.php:272
+#: includes/class-hospitality-demo.php:273
+msgid "Demo Pricing Model"
+msgstr "Demo Pricing Model"
+
+#: includes/class-hospitality-demo.php:307
+#: includes/class-hospitality-demo.php:308
+#: includes/class-hospitality-demo.php:316
+msgid "Demo Amenity Set"
+msgstr "Demo Amenity Set"
+
+#: includes/class-hospitality-locations-meta-box.php:15
+msgid "Locations Display Options"
+msgstr "Locations Display Options"
+
+#: includes/class-hospitality-locations-meta-box.php:63
+msgid "Location Address"
+msgstr "Location Address"
+
+#: includes/class-hospitality-locations-meta-box.php:65
+msgid "Name"
+msgstr "Name"
+
+#: includes/class-hospitality-locations-meta-box.php:70
+#: includes/class-hospitality-reservations-meta-box.php:200
+#: includes/class-hospitality-user-meta-manager.php:30
+#: public/class-hospitality-public.php:296
+msgid "Address 1"
+msgstr "Address 1"
+
+#: includes/class-hospitality-locations-meta-box.php:75
+#: includes/class-hospitality-reservations-meta-box.php:206
+#: includes/class-hospitality-user-meta-manager.php:36
+#: public/class-hospitality-public.php:297
+msgid "Address 2"
+msgstr "Address 2"
+
+#: includes/class-hospitality-locations-meta-box.php:80
+#: includes/class-hospitality-reservations-meta-box.php:212
+#: includes/class-hospitality-settings.php:504
+#: includes/class-hospitality-user-meta-manager.php:43
+#: public/class-hospitality-public.php:298
+#: public/class-hospitality-public.php:363
+msgid "City"
+msgstr "City"
+
+#: includes/class-hospitality-locations-meta-box.php:86
+#: includes/class-hospitality-reservations-meta-box.php:219
+#: includes/class-hospitality-settings.php:513
+#: includes/class-hospitality-user-meta-manager.php:49
+#: public/class-hospitality-public.php:299
+#: public/class-hospitality-public.php:364
+msgid "State"
+msgstr "State"
+
+#: includes/class-hospitality-locations-meta-box.php:91
+#: includes/class-hospitality-reservations-meta-box.php:225
+#: includes/class-hospitality-user-meta-manager.php:55
+#: public/class-hospitality-public.php:366
+msgid "Postal Code"
+msgstr "Zip Code"
+
+#: includes/class-hospitality-locations-meta-box.php:141
+#: includes/class-hospitality-pricing-models-meta-box.php:115
+#: includes/class-hospitality-reservations-meta-box.php:333
+#: includes/class-hospitality-room-locations-meta-box.php:130
+#: includes/class-hospitality-rooms-meta-box.php:496
+msgid "Click this button to add a new item to this list."
+msgstr "Click this button to add a new item to this list."
+
+#: includes/class-hospitality-locations-meta-box.php:142
+#: includes/class-hospitality-reservations-meta-box.php:334
+#: includes/class-hospitality-room-locations-meta-box.php:131
+#: includes/class-hospitality-rooms-meta-box.php:497
+msgid ""
+"Click this button select or upload a different image. For best results, "
+"choose images 600 px wide by 150 px high."
+msgstr ""
+"Click this button select or upload a different image. For best results, "
+"choose images 600 px wide by 150 px high."
+
+#: includes/class-hospitality-locations-meta-box.php:143
+#: includes/class-hospitality-reservations-meta-box.php:335
+#: includes/class-hospitality-room-locations-meta-box.php:132
+#: includes/class-hospitality-rooms-meta-box.php:498
+msgid "Click this button to remove this image from the slider."
+msgstr "Click this button to remove this image from the slider."
+
+#: includes/class-hospitality-locations-meta-box.php:144
+#: includes/class-hospitality-reservations-meta-box.php:336
+#: includes/class-hospitality-room-locations-meta-box.php:133
+#: includes/class-hospitality-rooms-meta-box.php:499
+msgid "Click this button to remove this item from the list."
+msgstr "Click this button to remove this item from the list."
+
+#: includes/class-hospitality-meta-box.php:44
+msgid "-- Choose one --"
+msgstr "-- Choose one --"
+
+#: includes/class-hospitality-meta-box.php:425
+msgid "Could not add room location post."
+msgstr "Could not add room location post."
+
+#: includes/class-hospitality-meta-box.php:858
+msgid "+"
+msgstr "+"
+
+#: includes/class-hospitality-meta-box.php:893
+msgid "--Choose One--"
+msgstr "--Choose One--"
+
+#: includes/class-hospitality-pricing-models-meta-box.php:15
+msgid "Pricing Models Options"
+msgstr "Pricing Models Options"
+
+#: includes/class-hospitality-pricing-models-meta-box.php:41
+msgid "Pricing Model Settings"
+msgstr "Pricing Model Settings"
+
+#: includes/class-hospitality-pricing-models-meta-box.php:52
+msgid "Start Date"
+msgstr "Start Date"
+
+#: includes/class-hospitality-pricing-models-meta-box.php:53
+msgid "End Date"
+msgstr "End Date"
+
+#: includes/class-hospitality-pricing-models-meta-box.php:54
+msgid "Price (by day of the week)"
+msgstr "Price (by day of the week)"
+
+#: includes/class-hospitality-pricing-models-meta-box.php:55
+msgid "S"
+msgstr "S"
+
+#: includes/class-hospitality-pricing-models-meta-box.php:56
+msgid "M"
+msgstr "M"
+
+#: includes/class-hospitality-pricing-models-meta-box.php:57
+msgid "T"
+msgstr "T"
+
+#: includes/class-hospitality-pricing-models-meta-box.php:58
+msgid "W"
+msgstr "W"
+
+#: includes/class-hospitality-pricing-models-meta-box.php:59
+msgid "Th"
+msgstr "Th"
+
+#: includes/class-hospitality-pricing-models-meta-box.php:60
+msgid "F"
+msgstr "F"
+
+#: includes/class-hospitality-pricing-models-meta-box.php:61
+msgid "Sa"
+msgstr "Sa"
+
+#: includes/class-hospitality-pricing-models-meta-box.php:64
+msgid "Pricing"
+msgstr "Pricing"
+
+#: includes/class-hospitality-pricing-models-meta-box.php:116
+msgid ""
+"For each price panel, enter date ranges during which a price will be in "
+"effect. Enter a price only for Sunday to set the price the same for all days "
+"of the week. Click the + button below to add a new price panel."
+msgstr ""
+"For each price panel, enter date ranges during which a price will be in "
+"effect. Enter a price only for Sunday to set the price the same for all days "
+"of the week. Click the + button below to add a new price panel."
+
+#: includes/class-hospitality-pricing-models-meta-box.php:117
+msgid "Click here to delete this pricing panel."
+msgstr "Click here to delete this pricing panel."
+
+#: includes/class-hospitality-reservation-agent.php:26
+msgid "Reservation request for room with no available locations."
+msgstr "Reservation request for room with no available locations."
+
+#: includes/class-hospitality-reservation-agent.php:107
+msgid "Could not update payment status after confirmation redirect."
+msgstr "Could not update payment status after confirmation redirect."
+
+#: includes/class-hospitality-reservation-agent.php:205
+msgid "Reservation Confirmation"
+msgstr "Reservation Confirmation"
+
+#: includes/class-hospitality-reservation-agent.php:209
+msgid "Your reservation is confirmed."
+msgstr "Your reservation is confirmed."
+
+#: includes/class-hospitality-reservation-agent.php:212
+msgid "Confirmation number:"
+msgstr "Confirmation number:"
+
+#: includes/class-hospitality-reservation-agent.php:213
+msgid "Nights:"
+msgstr "Nights:"
+
+#: includes/class-hospitality-reservation-agent.php:214
+msgid "Your date of arrival:"
+msgstr "Your date of arrival:"
+
+#: includes/class-hospitality-reservation-agent.php:215
+msgid "Payment amount:"
+msgstr "Payment amount:"
+
+#: includes/class-hospitality-reservation-agent.php:218
+msgid "Attempt to send mail failed."
+msgstr "Attempt to send mail failed."
+
+#: includes/class-hospitality-reservations-meta-box.php:15
+msgid "Reservations Display Options"
+msgstr "Reservations Display Options"
+
+#: includes/class-hospitality-reservations-meta-box.php:62
+msgid "Guest & Reservation Information"
+msgstr "Guest & Reservation Information"
+
+#: includes/class-hospitality-reservations-meta-box.php:65
+#: public/class-hospitality-public.php:359
+msgid "First Name"
+msgstr "First Name"
+
+#: includes/class-hospitality-reservations-meta-box.php:70
+#: public/class-hospitality-public.php:360
+msgid "Last Name"
+msgstr "Last Name"
+
+#: includes/class-hospitality-reservations-meta-box.php:75
+msgid "Middle Name"
+msgstr "Middle Name"
+
+#: includes/class-hospitality-reservations-meta-box.php:80
+msgid "Suffix"
+msgstr "Suffix"
+
+#: includes/class-hospitality-reservations-meta-box.php:86
+#: public/class-hospitality-public.php:369
+msgid "Mobile Phone"
+msgstr "Mobile Phone"
+
+#: includes/class-hospitality-reservations-meta-box.php:92
+msgid "Work Phone"
+msgstr "Work Phone"
+
+#: includes/class-hospitality-reservations-meta-box.php:98
+msgid "Home Phone"
+msgstr "Home Phone"
+
+#: includes/class-hospitality-reservations-meta-box.php:104
+msgid "Email"
+msgstr "Email"
+
+#: includes/class-hospitality-reservations-meta-box.php:111
+#: public/class-hospitality-public.php:305
+msgid "Number of adults"
+msgstr "Number of adults"
+
+#: includes/class-hospitality-reservations-meta-box.php:118
+#: public/class-hospitality-public.php:306
+msgid "Number of children"
+msgstr "Number of children"
+
+#: includes/class-hospitality-reservations-meta-box.php:125
+msgid "Payment status"
+msgstr "Payment status"
+
+#: includes/class-hospitality-reservations-meta-box.php:131
+msgid "Room amount"
+msgstr "Room amount"
+
+#: includes/class-hospitality-reservations-meta-box.php:138
+#: public/class-hospitality-public.php:325
+msgid "Tax"
+msgstr "Tax"
+
+#: includes/class-hospitality-reservations-meta-box.php:145
+#: public/class-hospitality-public.php:326
+msgid "Fee"
+msgstr "Fee"
+
+#: includes/class-hospitality-reservations-meta-box.php:152
+msgid "Payment Amount"
+msgstr "Payment Amount"
+
+#: includes/class-hospitality-reservations-meta-box.php:162
+msgid "Room location"
+msgstr "Room location"
+
+#: includes/class-hospitality-reservations-meta-box.php:176
+msgid "M d, Y h:i A T"
+msgstr "M d, Y h:i A T"
+
+#: includes/class-hospitality-reservations-meta-box.php:177
+#: public/class-hospitality-public.php:289
+msgid "Date of arrival"
+msgstr "Date of arrival"
+
+#: includes/class-hospitality-reservations-meta-box.php:185
+msgid "Duration (number of nights)"
+msgstr "Duration (number of nights)"
+
+#: includes/class-hospitality-reservations-meta-box.php:192
+#: includes/class-hospitality-room-locations-meta-box.php:81
+msgid "Status"
+msgstr "Status"
+
+#: includes/class-hospitality-room-locations-meta-box.php:19
+msgid "Room Locations Display Options"
+msgstr "Room Locations Display Options"
+
+#: includes/class-hospitality-room-locations-meta-box.php:67
+msgid "Room Location Information"
+msgstr "Room Location Information"
+
+#: includes/class-hospitality-room-locations-meta-box.php:70
+msgid "Facility Location"
+msgstr "Facility Location"
+
+#: includes/class-hospitality-room-locations-meta-box.php:76
+msgid "Unit Number"
+msgstr "Unit Number"
+
+#: includes/class-hospitality-rooms-meta-box.php:26
+msgid "Rooms Display Options"
+msgstr "Rooms Display Options"
+
+#: includes/class-hospitality-rooms-meta-box.php:80
+msgid "Content Settings"
+msgstr "Content Settings"
+
+#: includes/class-hospitality-rooms-meta-box.php:82
+msgid "Slogan"
+msgstr "Slogan"
+
+#: includes/class-hospitality-rooms-meta-box.php:104
+msgid "Excerpt"
+msgstr "Excerpt"
+
+#: includes/class-hospitality-rooms-meta-box.php:114
+msgid "Override Details Page"
+msgstr "Override Details Page"
+
+#: includes/class-hospitality-rooms-meta-box.php:126
+msgid "Occupancy Settings"
+msgstr "Occupancy Settings"
+
+#: includes/class-hospitality-rooms-meta-box.php:128
+msgid "Maximum Occupancy"
+msgstr "Maximum Occupancy"
+
+#: includes/class-hospitality-rooms-meta-box.php:142
+msgid "Amenity Settings"
+msgstr "Amenity Settings"
+
+#: includes/class-hospitality-rooms-meta-box.php:144
+msgid "Arrow"
+msgstr "Arrow"
+
+#: includes/class-hospitality-rooms-meta-box.php:145
+msgid "Check Mark"
+msgstr "Check Mark"
+
+#: includes/class-hospitality-rooms-meta-box.php:148
+msgid "Amenity List Icon"
+msgstr "Amenity List Icon"
+
+#: includes/class-hospitality-rooms-meta-box.php:155
+#: model/class-amenity-sets-post-type.php:67
+msgid "Amenity Set"
+msgstr "Amenity Set"
+
+#: includes/class-hospitality-rooms-meta-box.php:166
+msgid "Room Specific Amenities"
+msgstr "Room Specific Amenities"
+
+#: includes/class-hospitality-rooms-meta-box.php:182
+msgid "Select pricing model"
+msgstr "Select pricing model"
+
+#: includes/class-hospitality-rooms-meta-box.php:203
+msgid "Slider Images"
+msgstr "Slider Images"
+
+#: includes/class-hospitality-rooms-meta-box.php:212
+msgid "Fade"
+msgstr "Fade"
+
+#: includes/class-hospitality-rooms-meta-box.php:213
+msgid "Slide"
+msgstr "Slide"
+
+#: includes/class-hospitality-rooms-meta-box.php:215
+msgid "Animation Effects"
+msgstr "Slide"
+
+#: includes/class-hospitality-rooms-meta-box.php:222
+msgid "Animation Duration (in ms)"
+msgstr "Animation Duration (in ms)"
+
+#: includes/class-hospitality-rooms-meta-box.php:229
+msgid "Auto Animation"
+msgstr "Auto Animation"
+
+#: includes/class-hospitality-rooms-meta-box.php:236
+msgid "Auto Animation Speed (in ms)"
+msgstr "Auto Animation Speed (in ms)"
+
+#: includes/class-hospitality-rooms-meta-box.php:243
+msgid "Pause on hover"
+msgstr "Pause on hover"
+
+#: includes/class-hospitality-rooms-meta-box.php:249
+msgid "Alternative Image Shortcode (for example, \"[metaslider]\")"
+msgstr "Alternative Image Shortcode (for example, \"[metaslider]\")"
+
+#: includes/class-hospitality-rooms-meta-box.php:258
+msgid "Room Locations for this Room"
+msgstr "Room Locations for this Room"
+
+#: includes/class-hospitality-rooms-meta-box.php:267
+#: model/class-room-locations-post-type.php:53
+#: model/class-room-locations-post-type.php:55
+#: model/class-room-locations-post-type.php:67
+msgid "Room Locations"
+msgstr "Room Locations"
+
+#: includes/class-hospitality-rooms-meta-box.php:418
+msgid "Select Image"
+msgstr "Select Image"
+
+#: includes/class-hospitality-rooms-meta-box.php:460
+msgid "Select a location from the dropdown"
+msgstr "Select a location from the dropdown"
+
+#: includes/class-hospitality-rooms-meta-box.php:472
+msgid "Enter unit number or name here."
+msgstr "Enter unit number or name here."
+
+#: includes/class-hospitality-rooms-meta-box.php:475
+msgid "Enter room status information here."
+msgstr "Enter room status information here."
+
+#: includes/class-hospitality-rooms-meta-box.php:500
+msgid ""
+"Choose from this list only a custom page containing details for this room. "
+"Leave this unselected unless such a page has been set up for this room."
+msgstr ""
+"Choose from this list only a custom page containing details for this room. "
+"Leave this unselected unless such a page has been set up for this room."
+
+#: includes/class-hospitality-rooms-meta-box.php:501
+msgid ""
+"This is the icon that will appear as the bullet for each listed amenity."
+msgstr ""
+"This is the icon that will appear as the bullet for each listed amenity."
+
+#: includes/class-hospitality-rooms-meta-box.php:502
+msgid ""
+"This is a list of standard amenity sets defined in the Amenity Sets post "
+"type page."
+msgstr ""
+"This is a list of standard amenity sets defined in the Amenity Sets post "
+"type page."
+
+#: includes/class-hospitality-rooms-meta-box.php:503
+msgid ""
+"These are amenities that come only with this room. Items in this list can be "
+"dragged to change the list order. Click the + button at the bottom of the "
+"list to add a new item."
+msgstr ""
+"These are amenities that come only with this room. Items in this list can be "
+"dragged to change the list order. Click the + button at the bottom of the "
+"list to add a new item."
+
+#: includes/class-hospitality-rooms-meta-box.php:504
+msgid ""
+"Pricing models define how a room price varies based on things like seasons, "
+"upcoming events, and days of the week. They are set up in the Pricing Models "
+"post type page."
+msgstr ""
+"Pricing models define how a room price varies based on things like seasons, "
+"upcoming events, and days of the week. They are set up in the Pricing Models "
+"post type page."
+
+#: includes/class-hospitality-rooms-meta-box.php:505
+msgid ""
+"Items in this list can be dragged to change the list order. Click the + "
+"button at the bottom of the list to add a new item."
+msgstr ""
+"Items in this list can be dragged to change the list order. Click the + "
+"button at the bottom of the list to add a new item."
+
+#: includes/class-hospitality-rooms-meta-box.php:506
+msgid ""
+"This is the amount of time it takes the animation to completely transition "
+"from one slide to the next."
+msgstr ""
+"This is the amount of time it takes the animation to completely transition "
+"from one slide to the next."
+
+#: includes/class-hospitality-rooms-meta-box.php:507
+msgid ""
+"This turns the slider animation on or off. If off, visitors must manually "
+"click the navigation buttons to transition between slides."
+msgstr ""
+"This turns the slider animation on or off. If off, visitors must manually "
+"click the navigation buttons to transition between slides."
+
+#: includes/class-hospitality-rooms-meta-box.php:508
+msgid ""
+"This is the amount of time a slide is displayed before the animation "
+"transitions to the next slide."
+msgstr ""
+"This is the amount of time a slide is displayed before the animation "
+"transitions to the next slide."
+
+#: includes/class-hospitality-rooms-meta-box.php:509
+msgid ""
+"The Guestaba Rooms slider can be completely replaced with another slider, or "
+"anything else, by entering a valid shortcode here."
+msgstr ""
+"The Guestaba Rooms slider can be completely replaced with another slider, or "
+"anything else, by entering a valid shortcode here."
+
+#: includes/class-hospitality-rooms-meta-box.php:511
+msgid ""
+"Enter the name of a FontAwsome icon. For example, enter &quot;clock&quot; to "
+"display &quot;fa-clock.&quot; Specify icons only for those amenities for "
+"which you want to display an icon in the room listing."
+msgstr ""
+"Enter the name of a FontAwsome icon. For example, enter &quot;clock&quot; to "
+"display &quot;fa-clock.&quot; Specify icons only for those amenities for "
+"which you want to display an icon in the room listing."
+
+#: includes/class-hospitality-rooms-meta-box.php:512
+msgid ""
+"Select a location. Locations are created from Locations in the admin "
+"dashboard."
+msgstr ""
+"Select a location. Locations are created from Locations in the admin "
+"dashboard."
+
+#: includes/class-hospitality-rooms-meta-box.php:513
+msgid "Enter a unit number or name. It must be unique."
+msgstr "Enter a unit number or name. It must be unique."
+
+#: includes/class-hospitality-rooms-meta-box.php:514
+msgid "Enter status information."
+msgstr "Enter status information."
+
+#: includes/class-hospitality-rooms-meta-box.php:637
+msgid "Could not retrieve room for room location during validation."
+msgstr "Could not retrieve room for room location during validation."
+
+#: includes/class-hospitality-rooms-meta-box.php:644
+msgid "Could not retrieve location for room location during validation."
+msgstr "Could not retrieve location for room location during validation."
+
+#: includes/class-hospitality-settings.php:44
+msgid "Amenities"
+msgstr "Amenities"
+
+#: includes/class-hospitality-settings.php:392
+msgid "Hospitality General Settings"
+msgstr "Hospitality General Settings"
+
+#: includes/class-hospitality-settings.php:399
+msgid "Remove plugin posts, settings, and other data on deactivation."
+msgstr "Remove plugin posts, settings, and other data on deactivation."
+
+#: includes/class-hospitality-settings.php:408
+msgid "Checkin Time"
+msgstr "Checkin Time"
+
+#: includes/class-hospitality-settings.php:416
+msgid "Checkout Time"
+msgstr "Checkout Time"
+
+#: includes/class-hospitality-settings.php:427
+msgid "Hospitality Room List Settings"
+msgstr "Hospitality Room List Settings"
+
+#: includes/class-hospitality-settings.php:436
+msgid "Room excerpt maximum character count"
+msgstr "Room excerpt maximum character count"
+
+#: includes/class-hospitality-settings.php:449
+msgid "Hospitality Room Pages Settings"
+msgstr "Hospitality Room Pages Settings"
+
+#: includes/class-hospitality-settings.php:458
+msgid "Amenities list title"
+msgstr "Amenities list title"
+
+#: includes/class-hospitality-settings.php:467
+msgid "Currency symbol"
+msgstr "Currency symbol"
+
+#: includes/class-hospitality-settings.php:478
+msgid "Hospitality Address Settings"
+msgstr "Hospitality Address Settings"
+
+#: includes/class-hospitality-settings.php:486
+#: public/class-hospitality-public.php:361
+msgid "Street Address 1"
+msgstr "Street Address 1"
+
+#: includes/class-hospitality-settings.php:495
+#: public/class-hospitality-public.php:362
+msgid "Street Address 2"
+msgstr "Street Address 2"
+
+#: includes/class-hospitality-settings.php:522
+#: includes/class-hospitality-user-meta-manager.php:61
+#: public/class-hospitality-public.php:301
+#: public/class-hospitality-public.php:367
+msgid "Country"
+msgstr "Country"
+
+#: includes/class-hospitality-settings.php:531
+msgid "Postal Code (Zip)"
+msgstr "Postal Code (Zip)"
+
+#: includes/class-hospitality-settings.php:542
+msgid "Google Maps API Key"
+msgstr "Google Maps API Key"
+
+#: includes/class-hospitality-settings.php:555
+msgid "Location latitude"
+msgstr "Location latitude"
+
+#: includes/class-hospitality-settings.php:564
+msgid "Location longitude"
+msgstr "Location longitude"
+
+#: includes/class-hospitality-settings.php:573
+msgid "Google Maps Default Zoom"
+msgstr "Google Maps Default Zoom"
+
+#: includes/class-hospitality-settings.php:585
+msgid "Hospitality Room Search Settings"
+msgstr "Hospitality Room Search Settings"
+
+#: includes/class-hospitality-settings.php:592
+msgid "Searchable Amenities"
+msgstr "Searchable Amenities"
+
+#: includes/class-hospitality-settings.php:600
+msgid "Reservation Entry Point Slug"
+msgstr "Reservation Entry Point Slug"
+
+#: includes/class-hospitality-settings.php:613
+msgid "Payment Gateway Settings"
+msgstr "Payment Gateway Settings"
+
+#: includes/class-hospitality-settings.php:620
+msgid "Gateway Name"
+msgstr "Gateway Name"
+
+#: includes/class-hospitality-settings.php:628
+msgid "Gateway User Name"
+msgstr "Gateway User Name"
+
+#: includes/class-hospitality-settings.php:636
+msgid "Gateway Password"
+msgstr "Gateway Password"
+
+#: includes/class-hospitality-settings.php:644
+msgid "Gateway Signature"
+msgstr "Gateway Signature"
+
+#: includes/class-hospitality-settings.php:652
+msgid "Gateway Test Mode"
+msgstr "Gateway Test Mode"
+
+#: includes/class-hospitality-settings.php:660
+msgid "Gateway Cancel URL"
+msgstr "Gateway Cancel URL"
+
+#: includes/class-hospitality-settings.php:668
+msgid "Gateway Return URL"
+msgstr "Gateway Return URL"
+
+#: includes/class-hospitality-settings.php:676
+msgid "Gateway Currency"
+msgstr "Gateway Currency"
+
+#: includes/class-hospitality-settings.php:684
+msgid "Enable offline payments"
+msgstr "Enable offline payments"
+
+#: includes/class-hospitality-settings.php:692
+msgid "Offline payment instructions"
+msgstr "Offline payment instructions"
+
+#: includes/class-hospitality-settings.php:701
+msgid "Confirmation email message"
+msgstr "Confirmation email message"
+
+#: includes/class-hospitality-settings.php:710
+msgid "Hospitality User Registration Settings"
+msgstr "Hospitality User Registration Settings"
+
+#: includes/class-hospitality-settings.php:717
+msgid "Registration message"
+msgstr "Registration message"
+
+#: includes/class-hospitality-settings.php:725
+msgid "Enable user registration and login controls"
+msgstr "Enable user registration and login controls"
+
+#: includes/class-hospitality-settings.php:734
+msgid "Hospitality Tax and Fee Settings"
+msgstr "Hospitality Tax and Fee Settings"
+
+#: includes/class-hospitality-settings.php:741
+msgid "Tax amount"
+msgstr "Tax amount"
+
+#: includes/class-hospitality-settings.php:749
+msgid "Apply tax as a percentage of room and fee total"
+msgstr "Apply tax as a percentage of room and fee total"
+
+#: includes/class-hospitality-settings.php:757
+msgid "Fee amount"
+msgstr "Fee amount"
+
+#: includes/class-hospitality-settings.php:765
+msgid "Apply fee as a percentage room total"
+msgstr "Apply fee as a percentage room total"
+
+#: includes/class-hospitality-settings.php:987
+msgid "United States"
+msgstr "United States"
+
+#: includes/class-hospitality-settings.php:1022
+msgid "How to get an API key."
+msgstr "How to get an API key."
+
+#: includes/class-hospitality-settings.php:1051
+msgid "Click to geocode the location address entered above."
+msgstr "Click to geocode the location address entered above."
+
+#: includes/class-hospitality-settings.php:1051
+msgid "Geocode Address"
+msgstr "Geocode Address"
+
+#: includes/class-hospitality-settings.php:1072
+msgid "4:00pm"
+msgstr "4:00pm"
+
+#: includes/class-hospitality-settings.php:1082
+msgid "11:00am"
+msgstr "11:00am"
+
+#: includes/class-hospitality-settings.php:1280
+msgid ""
+"Check this to enable user registration and login links above search form."
+msgstr ""
+"Check this to enable user registration and login links above search form."
+
+#: includes/class-hospitality-settings.php:1325
+msgid "Check this to apply tax as a percentage instead an absolute amount."
+msgstr "Check this to apply tax as a percentage instead an absolute amount."
+
+#: includes/class-hospitality-settings.php:1342
+msgid "Check this to apply fee as a percentage instead an absolute amount."
+msgstr "Check this to apply fee as a percentage instead an absolute amount."
+
+#: includes/class-hospitality-settings.php:1501
+msgid "General settings for Hospitality Plugin"
+msgstr "General settings for Hospitality Plugin"
+
+#: includes/class-hospitality-settings.php:1509
+msgid "Default settings for room listing options."
+msgstr "Default settings for room listing options."
+
+#: includes/class-hospitality-settings.php:1517
+msgid "Default settings for room pages."
+msgstr "Default settings for room pages."
+
+#: includes/class-hospitality-settings.php:1525
+msgid "Address settings for location map."
+msgstr "Address settings for location map."
+
+#: includes/class-hospitality-settings.php:1529
+msgid "Room search settings."
+msgstr "Room search settings."
+
+#: includes/class-hospitality-settings.php:1533
+msgid "Payment gateway settings."
+msgstr "Payment gateway settings."
+
+#: includes/class-hospitality-settings.php:1538
+msgid "User registration settings."
+msgstr "User registration settings."
+
+#: includes/class-hospitality-settings.php:1542
+msgid "Tax and fee settings."
+msgstr "Tax and fee settings."
+
+#: includes/class-hospitality-shortcodes.php:271
+msgid "Room Rates"
+msgstr "Room Rates"
+
+#: includes/class-hospitality-shortcodes.php:341
+#: includes/class-hospitality-shortcodes.php:789
+#: model/class-rooms-post-type.php:469
+msgid "Call"
+msgstr "Call"
+
+#: includes/class-hospitality-shortcodes.php:532
+msgid "View details"
+msgstr "View details"
+
+#: includes/class-hospitality-shortcodes.php:578
+msgid "Click here for all room details."
+msgstr "Click here for all room details."
+
+#: includes/class-hospitality-shortcodes.php:579
+msgid "...Room Details"
+msgstr "...Room Details"
+
+#: includes/class-hospitality-shortcodes.php:644
+msgid "Rooms & Rates"
+msgstr "Rooms & Rates"
+
+#: includes/class-hospitality-shortcodes.php:791
+msgid "Rates (depending on season:)"
+msgstr "Rates (depending on season:)"
+
+#: includes/class-hospitality-shortcodes.php:846
+msgid "Back to room listing"
+msgstr "Back to room listing"
+
+#: includes/class-hospitality-shortcodes.php:904
+msgid "Current Rate: "
+msgstr "Current Rate: "
+
+#: includes/class-hospitality-shortcodes.php:980
+msgid "Our Location"
+msgstr "Our Location"
+
+#: includes/class-hospitality-shortcodes.php:1040
+msgid "Payment approved. Amount was "
+msgstr "Payment approved. Amount was "
+
+#: includes/class-hospitality-shortcodes.php:1043
+msgid "Payment approval operation failed:"
+msgstr "Payment approval operation failed:"
+
+#: includes/class-hospitality-user-meta-manager.php:39
+msgid "Please enter your address."
+msgstr "Please enter your address."
+
+#: includes/class-hospitality-user-meta-manager.php:69
+msgid "Phone Number"
+msgstr "Phone Number"
+
+#: includes/class-hospitality-user-meta-manager.php:75
+msgid "Mobile Phone Number"
+msgstr "Mobile Phone Number"
+
+#: includes/class-hospitality-user-meta-manager.php:121
+msgid "Could not register user"
+msgstr "Could not register user"
+
+#: includes/class-hospitality.php:642
+#, php-format
+msgid "Hospitality %s is installed."
+msgstr "Hospitality %s is installed."
+
+#: includes/paygates/class-payment-gateway-factory.php:48
+#: includes/paygates/class-payment-gateway-factory.php:49
+msgid "Unknown payment gateway"
+msgstr "Unknown payment gateway"
+
+#: includes/paygates/class-payment-gateway-factory.php:65
+#: includes/paygates/class-payment-gateway-factory.php:66
+msgid "Cannot determine payment method from confirmation query."
+msgstr "Cannot determine payment method from confirmation query."
+
+#: includes/paygates/interface-payment-gateway.php:7
+msgid "On"
+msgstr "On"
+
+#: includes/paygates/interface-payment-gateway.php:10
+msgid "Off"
+msgstr "Off"
+
+#: model/class-amenity-sets-post-type.php:66
+msgid "Amenity Sets Listings"
+msgstr "Amenity Sets Listings"
+
+#: model/class-amenity-sets-post-type.php:68
+#: model/class-amenity-sets-post-type.php:70
+#: model/class-amenity-sets-post-type.php:82
+msgid "Amenity Sets"
+msgstr "Amenity Sets"
+
+#: model/class-amenity-sets-post-type.php:69
+msgid "Parent Amenity Set:"
+msgstr "Parent Amenity Set:"
+
+#: model/class-amenity-sets-post-type.php:71
+msgid "View Amenity Set"
+msgstr "View Amenity Set"
+
+#: model/class-amenity-sets-post-type.php:72
+msgid "Add New Amenity Set"
+msgstr "Add New Amenity Set"
+
+#: model/class-amenity-sets-post-type.php:73
+#: model/class-locations-post-type.php:54
+#: model/class-pricing-models-post-type.php:73
+#: model/class-reservations-post-type.php:62
+#: model/class-room-locations-post-type.php:58
+#: model/class-rooms-post-type.php:73
+msgid "Add New"
+msgstr "Add New"
+
+#: model/class-amenity-sets-post-type.php:74
+msgid "Edit Amenity Set"
+msgstr "Edit Amenity Set"
+
+#: model/class-amenity-sets-post-type.php:75
+msgid "Update Amenity Set"
+msgstr "Update Amenity Set"
+
+#: model/class-amenity-sets-post-type.php:76
+msgid "Search Amenity Sets"
+msgstr "Search Amenity Sets"
+
+#: model/class-amenity-sets-post-type.php:77
+msgid "No Amenity Sets found"
+msgstr "No Amenity Sets found"
+
+#: model/class-amenity-sets-post-type.php:78
+msgid "No Amenity Sets found in Trash"
+msgstr "No Amenity Sets found in Trash"
+
+#: model/class-amenity-sets-post-type.php:84
+#: model/class-pricing-models-post-type.php:84
+msgid "Display your works by filters"
+msgstr "Display your works by filters"
+
+#: model/class-locations-post-type.php:47
+msgid "Location Listings"
+msgstr "Location Listings"
+
+#: model/class-locations-post-type.php:48
+msgid "Location"
+msgstr "Location"
+
+#: model/class-locations-post-type.php:49
+#: model/class-locations-post-type.php:51
+#: model/class-locations-post-type.php:63
+msgid "Locations"
+msgstr "Locations"
+
+#: model/class-locations-post-type.php:50
+msgid "Parent Location:"
+msgstr "Parent Location:"
+
+#: model/class-locations-post-type.php:52
+msgid "View Location"
+msgstr "View Location"
+
+#: model/class-locations-post-type.php:53
+msgid "Add New Location"
+msgstr "Add New Location"
+
+#: model/class-locations-post-type.php:55
+msgid "Edit Location"
+msgstr "Edit Location"
+
+#: model/class-locations-post-type.php:56
+msgid "Update Location"
+msgstr "Update Location"
+
+#: model/class-locations-post-type.php:57
+msgid "Search Locations"
+msgstr "Search Locations"
+
+#: model/class-locations-post-type.php:58
+msgid "No locations found"
+msgstr "No locations found"
+
+#: model/class-locations-post-type.php:59
+msgid "No locations found in Trash"
+msgstr "No locations found in Trash"
+
+#: model/class-locations-post-type.php:65
+msgid "Location description goes here."
+msgstr "Location description goes here."
+
+#: model/class-locations-post-type.php:256
+msgid "Default location"
+msgstr "Default location"
+
+#: model/class-locations-post-type.php:257
+msgid "This is the default location for your facility."
+msgstr "This is the default location for your facility."
+
+#: model/class-locations-post-type.php:258
+msgid "123 Your Street"
+msgstr "123 Your Street"
+
+#: model/class-locations-post-type.php:260
+msgid "Your City"
+msgstr "Your City"
+
+#: model/class-locations-post-type.php:261
+msgid "Your State"
+msgstr "Your State"
+
+#: model/class-locations-post-type.php:262
+msgid "Postal Code/Zip"
+msgstr "Postal Code/Zip"
+
+#: model/class-locations-post-type.php:292
+msgid "Could add location. Update post meta failed"
+msgstr "Could add location. Update post meta failed"
+
+#: model/class-locations-post-type.php:298
+msgid "Could add location. Could not insert new post."
+msgstr "Could add location. Could not insert new post."
+
+#: model/class-locations-post-type.php:323
+msgid "Could update location, post ID = "
+msgstr "Could update location, post ID = "
+
+#: model/class-locations-post-type.php:328
+#: model/class-locations-post-type.php:353
+msgid "Location does not exist, post ID = "
+msgstr "Location does not exist, post ID ="
+
+#: model/class-locations-post-type.php:347
+msgid "Could not delete location, post ID = "
+msgstr "Could not delete location, post ID ="
+
+#: model/class-pricing-models-post-type.php:66
+msgid "Pricing Models Listings"
+msgstr "Pricing Models Listings"
+
+#: model/class-pricing-models-post-type.php:67
+msgid "Pricing Model"
+msgstr "Pricing Model"
+
+#: model/class-pricing-models-post-type.php:68
+#: model/class-pricing-models-post-type.php:70
+#: model/class-pricing-models-post-type.php:82
+msgid "Pricing Models"
+msgstr "Pricing Models"
+
+#: model/class-pricing-models-post-type.php:69
+msgid "Parent Pricing Model:"
+msgstr "Parent Pricing Model:"
+
+#: model/class-pricing-models-post-type.php:71
+msgid "View Pricing Model"
+msgstr "View Pricing Model"
+
+#: model/class-pricing-models-post-type.php:72
+msgid "Add New Pricing Model"
+msgstr "Add New Pricing Model"
+
+#: model/class-pricing-models-post-type.php:74
+msgid "Edit Pricing Model"
+msgstr "Edit Pricing Model"
+
+#: model/class-pricing-models-post-type.php:75
+msgid "Update Pricing Model"
+msgstr "Update Pricing Model"
+
+#: model/class-pricing-models-post-type.php:76
+msgid "Search Pricing Models"
+msgstr "Search Pricing Models"
+
+#: model/class-pricing-models-post-type.php:77
+msgid "No Pricing Models found"
+msgstr "No Pricing Models found"
+
+#: model/class-pricing-models-post-type.php:78
+msgid "No Pricing Models found in Trash"
+msgstr "No Pricing Models found in Trash"
+
+#: model/class-reservations-post-type.php:55
+msgid "Reservation Listings"
+msgstr "Reservation Listings"
+
+#: model/class-reservations-post-type.php:56
+#: model/class-reservations-post-type.php:643
+msgid "Reservation"
+msgstr "Reservation"
+
+#: model/class-reservations-post-type.php:57
+#: model/class-reservations-post-type.php:71
+msgid "Reservations"
+msgstr "Reservations"
+
+#: model/class-reservations-post-type.php:58
+msgid "Parent Reservation:"
+msgstr "Parent Reservation:"
+
+#: model/class-reservations-post-type.php:59
+#: model/class-reservations-post-type.php:784
+msgid "All Reservations"
+msgstr "All Reservations"
+
+#: model/class-reservations-post-type.php:60
+msgid "View Reservation"
+msgstr "View Reservation"
+
+#: model/class-reservations-post-type.php:61
+msgid "Add New Reservation"
+msgstr "Add New Reservation"
+
+#: model/class-reservations-post-type.php:63
+msgid "Edit Reservation"
+msgstr "Edit Reservation"
+
+#: model/class-reservations-post-type.php:64
+msgid "Update Reservation"
+msgstr "Update Reservation"
+
+#: model/class-reservations-post-type.php:65
+msgid "Search Reservations"
+msgstr "Search Reservations"
+
+#: model/class-reservations-post-type.php:66
+msgid "No reservations found"
+msgstr "No reservations found"
+
+#: model/class-reservations-post-type.php:67
+msgid "No reservations found in Trash"
+msgstr "No reservations found in Trash"
+
+#: model/class-reservations-post-type.php:73
+msgid "Reservation description goes here."
+msgstr "Reservation description goes here."
+
+#: model/class-reservations-post-type.php:341
+msgid "Could not add reservation. Update post meta failed"
+msgstr "Could not add reservation. Update post meta failed"
+
+#: model/class-reservations-post-type.php:347
+msgid "Could add reservation. Could not insert new post."
+msgstr "Could add reservation. Could not insert new post."
+
+#: model/class-reservations-post-type.php:373
+msgid "Could not update reservation payment status, post ID = "
+msgstr "Could not update reservation payment status, post ID = "
+
+#: model/class-reservations-post-type.php:378
+msgid "Invalid payment status, post ID = "
+msgstr "Invalid payment status, post ID ="
+
+#: model/class-reservations-post-type.php:429
+msgid "Could update reservation, post ID = "
+msgstr "Could update reservation, post ID ="
+
+#: model/class-reservations-post-type.php:434
+#: model/class-reservations-post-type.php:459
+msgid "Reservation does not exist, post ID = "
+msgstr "Reservation does not exist, post ID ="
+
+#: model/class-reservations-post-type.php:453
+msgid "Could not delete reservation, post ID = "
+msgstr "Could not delete reservation, post ID ="
+
+#: model/class-reservations-post-type.php:644
+msgid "Confirmation #"
+msgstr "Confirmation #"
+
+#: model/class-reservations-post-type.php:645
+msgid "Arrival Date"
+msgstr "Arrival Date"
+
+#: model/class-reservations-post-type.php:646
+#: model/class-reservations-post-type.php:926
+msgid "Paid"
+msgstr "Paid"
+
+#: model/class-reservations-post-type.php:647
+msgid "Date"
+msgstr "Paid"
+
+#: model/class-reservations-post-type.php:730
+msgid "M d, Y"
+msgstr "M d, Y"
+
+#: model/class-reservations-post-type.php:785
+msgid "Closed"
+msgstr "Closed"
+
+#: model/class-reservations-post-type.php:786
+msgid "Current"
+msgstr "Current"
+
+#: model/class-reservations-post-type.php:787
+msgid "Future"
+msgstr "Future"
+
+#: model/class-reservations-post-type.php:925
+msgid "All Pymt Status"
+msgstr "All Pymt Status"
+
+#: model/class-reservations-post-type.php:927
+msgid "Pending"
+msgstr "Pending"
+
+#: model/class-reservations-post-type.php:928
+msgid "Cancelled"
+msgstr "Cancelled"
+
+#: model/class-room-locations-post-type.php:51
+msgid "Room Locations Listings"
+msgstr "Room Locations Listings"
+
+#: model/class-room-locations-post-type.php:52
+#: public/class-hospitality-public.php:349
+msgid "Room Location"
+msgstr "Room Location"
+
+#: model/class-room-locations-post-type.php:54
+msgid "Parent Room Location:"
+msgstr "Parent Room Location:"
+
+#: model/class-room-locations-post-type.php:56
+msgid "View Room Location"
+msgstr "View Room Location"
+
+#: model/class-room-locations-post-type.php:57
+msgid "Add New Room Location"
+msgstr "Add New Room Location"
+
+#: model/class-room-locations-post-type.php:59
+msgid "Edit Room Location"
+msgstr "Edit Room Location"
+
+#: model/class-room-locations-post-type.php:60
+msgid "Update Room Location"
+msgstr "Update Room Location"
+
+#: model/class-room-locations-post-type.php:61
+msgid "Search Room Locations"
+msgstr "Search Room Locations"
+
+#: model/class-room-locations-post-type.php:62
+msgid "No room locations found"
+msgstr "No room locations found"
+
+#: model/class-room-locations-post-type.php:63
+msgid "No room locations found in Trash"
+msgstr "No room locations found in Trash"
+
+#: model/class-room-locations-post-type.php:69
+msgid "Room Location description goes here."
+msgstr "Room Location description goes here."
+
+#: model/class-room-locations-post-type.php:289
+msgid "No room location for location ID = "
+msgstr "No room location for location ID = "
+
+#: model/class-room-locations-post-type.php:322
+msgid "Room number cannot be blank."
+msgstr "Room number cannot be blank."
+
+#: model/class-room-locations-post-type.php:328
+msgid "There are no room locations with specified location_id."
+msgstr "There are no room locations with specified location_id."
+
+#: model/class-room-locations-post-type.php:338
+msgid "That room number already exists for this location."
+msgstr "That room number already exists for this location."
+
+#: model/class-room-locations-post-type.php:404
+msgid "Could add room location. Update post meta failed"
+msgstr "Could add room location. Update post meta failed"
+
+#: model/class-room-locations-post-type.php:410
+msgid "Could add room location. Could not insert new post."
+msgstr "Could add room location. Could not insert new post."
+
+#: model/class-room-locations-post-type.php:435
+msgid "Could update room location, post ID = "
+msgstr "Could update room location, post ID = "
+
+#: model/class-room-locations-post-type.php:441
+#: model/class-room-locations-post-type.php:471
+#: model/class-room-locations-post-type.php:472
+msgid "Room location does not exist, post ID = "
+msgstr "Room location does not exist, post ID = "
+
+#: model/class-room-locations-post-type.php:455
+msgid "A room location with reservations cannot be deleted."
+msgstr "A room location with reservations cannot be deleted."
+
+#: model/class-room-locations-post-type.php:465
+msgid "Could not delete room location, post ID = "
+msgstr "Could not delete room location, post ID = "
+
+#: model/class-room-locations-post-type.php:466
+msgid "Could not delete room location, room location ID ="
+msgstr "Could not delete room location, room location ID ="
+
+#: model/class-room-locations-post-type.php:597
+msgid "Could not retrieve room for room location"
+msgstr "Could not retrieve room for room location"
+
+#: model/class-rooms-post-type.php:66
+msgid "Room Listings"
+msgstr "Room Listings"
+
+#: model/class-rooms-post-type.php:67
+msgid "Room"
+msgstr "Room"
+
+#: model/class-rooms-post-type.php:68 model/class-rooms-post-type.php:82
+msgid "Rooms"
+msgstr "Rooms"
+
+#: model/class-rooms-post-type.php:69
+msgid "Parent Room:"
+msgstr "Parent Room:"
+
+#: model/class-rooms-post-type.php:70
+msgid "All Rooms"
+msgstr "All Rooms"
+
+#: model/class-rooms-post-type.php:71
+msgid "View Room"
+msgstr "View Room"
+
+#: model/class-rooms-post-type.php:72
+msgid "Add New Room"
+msgstr "Add New Room"
+
+#: model/class-rooms-post-type.php:74
+msgid "Edit Room"
+msgstr "Edit Room"
+
+#: model/class-rooms-post-type.php:75
+msgid "Update Room"
+msgstr "Update Room"
+
+#: model/class-rooms-post-type.php:76
+msgid "Search Rooms"
+msgstr "Search Rooms"
+
+#: model/class-rooms-post-type.php:77
+msgid "No rooms found"
+msgstr "No rooms found"
+
+#: model/class-rooms-post-type.php:78
+msgid "No rooms found in Trash"
+msgstr "No rooms found in Trash"
+
+#: model/class-rooms-post-type.php:84
+msgid "Room description goes here."
+msgstr "Room description goes here."
+
+#: model/class-rooms-post-type.php:437
+msgid "Could not retrieve room slider configuration."
+msgstr "Could not retrieve room slider configuration."
+
+#: public/class-hospitality-public.php:273
+msgid "Error retrieving slider JS options."
+msgstr "Error retrieving slider JS options."
+
+#: public/class-hospitality-public.php:274
+msgid "Error retrieving location map options."
+msgstr "Error retrieving location map options."
+
+#: public/class-hospitality-public.php:290
+msgid "Length of stay"
+msgstr "Length of stay"
+
+#: public/class-hospitality-public.php:291
+msgid "No of occupants"
+msgstr "No of occupants"
+
+#: public/class-hospitality-public.php:292
+msgid "Maximum price"
+msgstr "Maximum price"
+
+#: public/class-hospitality-public.php:293
+msgid "Requried amenities"
+msgstr "Requried amenities"
+
+#: public/class-hospitality-public.php:294
+msgid "First name"
+msgstr "First name"
+
+#: public/class-hospitality-public.php:295
+msgid "Last name"
+msgstr "Last name"
+
+#: public/class-hospitality-public.php:300
+msgid "Postal code (zip)"
+msgstr "Postal code (zip)"
+
+#: public/class-hospitality-public.php:302
+msgid "Phone number"
+msgstr "Phone number"
+
+#: public/class-hospitality-public.php:303
+msgid "Mobile number"
+msgstr "Mobile number"
+
+#: public/class-hospitality-public.php:304
+msgid "Email adddress"
+msgstr "Email adddress"
+
+#: public/class-hospitality-public.php:307
+msgid "Step 1: Find an accomodation that fits your needs."
+msgstr "Step 1: Find an accomodation that fits your needs."
+
+#: public/class-hospitality-public.php:308
+msgid "Availble Rooms (based on search criteria and vacancies)"
+msgstr "Availble Rooms (based on search criteria and vacancies)"
+
+#: public/class-hospitality-public.php:309
+msgid "Number of nights?"
+msgstr "Number of nights?"
+
+#: public/class-hospitality-public.php:310
+msgid "Number of Guests"
+msgstr "Number of Guests"
+
+#: public/class-hospitality-public.php:311
+msgid "Max Price"
+msgstr "Max Price"
+
+#: public/class-hospitality-public.php:312
+msgid "Details"
+msgstr "Details"
+
+#: public/class-hospitality-public.php:313
+msgid "Reserve"
+msgstr "Reserve"
+
+#: public/class-hospitality-public.php:314
+msgid "Click here to see more info and make a reservation."
+msgstr "Click here to see more info and make a reservation."
+
+#: public/class-hospitality-public.php:315
+msgid "Step 2: Choose one of the listed accommodations."
+msgstr "Step 2: Choose one of the listed accommodations."
+
+#: public/class-hospitality-public.php:316
+msgid "Book It"
+msgstr "Book It"
+
+#: public/class-hospitality-public.php:317
+msgid "You are reserving the following accomodation for"
+msgstr "You are reserving the following accomodation for"
+
+#: public/class-hospitality-public.php:318
+msgid "nights"
+msgstr "nights"
+
+#: public/class-hospitality-public.php:319
+msgid "You reservation is confirmed. Here is your confirmation number: "
+msgstr "You reservation is confirmed. Here is your confirmation number: "
+
+#: public/class-hospitality-public.php:320
+msgid "Confirmation details"
+msgstr "Confirmation details"
+
+#: public/class-hospitality-public.php:321
+msgid "Check in"
+msgstr "Check in"
+
+#: public/class-hospitality-public.php:322
+msgid "Check out"
+msgstr "Check out"
+
+#: public/class-hospitality-public.php:323
+msgid "Price per day"
+msgstr "Price per day"
+
+#: public/class-hospitality-public.php:324
+msgid "Room rental"
+msgstr "Room rental"
+
+#: public/class-hospitality-public.php:327
+msgid "Amount charged"
+msgstr "Amount charged"
+
+#: public/class-hospitality-public.php:328
+msgid "Book another reservation"
+msgstr "Book another reservation"
+
+#: public/class-hospitality-public.php:329
+msgid "Total"
+msgstr "Total"
+
+#: public/class-hospitality-public.php:330
+msgid "Card Number"
+msgstr "Card Number"
+
+#: public/class-hospitality-public.php:331
+msgid "Expiration (MM/YY)"
+msgstr "Expiration (MM/YY)"
+
+#: public/class-hospitality-public.php:332
+msgid "Expiration MM/"
+msgstr "Expiration MM/"
+
+#: public/class-hospitality-public.php:333
+msgid "YY"
+msgstr "YY"
+
+#: public/class-hospitality-public.php:334
+msgid "CVC"
+msgstr "CVC"
+
+#: public/class-hospitality-public.php:335
+msgid "Name on card"
+msgstr "Name on card"
+
+#: public/class-hospitality-public.php:336
+msgid "Payment Method"
+msgstr "Payment Method"
+
+#: public/class-hospitality-public.php:337
+msgid "PayPal Express"
+msgstr "PayPal Express"
+
+#: public/class-hospitality-public.php:339
+msgid "Offline"
+msgstr "Offline"
+
+#: public/class-hospitality-public.php:342
+msgid "No accommodations found matching the specified date and/or amenities."
+msgstr "No accommodations found matching the specified date and/or amenities."
+
+#: public/class-hospitality-public.php:343
+msgid "Date of arrival is in the past."
+msgstr "Date of arrival is in the past."
+
+#: public/class-hospitality-public.php:347
+msgid "Price today:"
+msgstr "Price today:"
+
+#: public/class-hospitality-public.php:348
+msgid "Rates, location, and guest information."
+msgstr "Rates, location, and guest information."
+
+#: public/class-hospitality-public.php:350
+msgid "Room Description"
+msgstr "Room Description"
+
+#: public/class-hospitality-public.php:351
+msgid "Current Daily Price"
+msgstr "Current Daily Price"
+
+#: public/class-hospitality-public.php:352
+msgid "Filter"
+msgstr "Filter"
+
+#: public/class-hospitality-public.php:356
+msgid "MMMM DD, YYYY"
+msgstr "MMMM DD, YYYY"
+
+#: public/class-hospitality-public.php:358
+msgid "Registration Failed"
+msgstr "Registration Failed"
+
+#: public/class-hospitality-public.php:365
+msgid "Email Address"
+msgstr "Email Address"
+
+#: public/class-hospitality-public.php:368
+msgid "Phone"
+msgstr "Phone"
+
+#: public/class-hospitality-public.php:370
+msgid "Registration"
+msgstr "Registration"
+
+#: public/class-hospitality-public.php:371
+msgid "Please fill out and submit this registration form"
+msgstr "Please fill out and submit this registration form"
+
+#: public/class-hospitality-public.php:372
+msgid "Sign Up"
+msgstr "Sign Up"
+
+#: public/class-hospitality-public.php:373
+msgid "Login"
+msgstr "Login"
+
+#: public/class-hospitality-public.php:374
+msgid "Enter your user name and password. Then press the login button"
+msgstr "Enter your user name and password. Then press the login button"
+
+#: public/class-hospitality-public.php:375
+msgid "Log In"
+msgstr "Log In"
+
+#: public/class-hospitality-public.php:376
+msgid "Cancel"
+msgstr "Cancel"
+
+#: public/class-hospitality-public.php:377
+msgid "User Name or Email"
+msgstr "User Name or Email"
+
+#: public/class-hospitality-public.php:378
+msgid "password"
+msgstr "password"
+
+#: public/class-hospitality-public.php:381
+msgid "Log in"
+msgstr "Log in"
+
+#: public/class-hospitality-public.php:382
+msgid "Log out"
+msgstr "Log out"
+
+#: public/class-hospitality-public.php:383
+msgid "User name or password were incorrect."
+msgstr "User name or password were incorrect."
+
+#: public/class-hospitality-public.php:384
+msgid "Log out failed."
+msgstr "Log out failed."
+
+#: public/class-hospitality-public.php:385
+msgid ""
+"You are registered. You may continue making your reservation from this page. "
+"Please check your email to confirm your registration and set your password."
+msgstr ""
+"You are registered. You may continue making your reservation from this page. "
+"Please check your email to confirm your registration and set your password."
+
+#: public/class-hospitality-public.php:387
+msgid "Register"
+msgstr "Register"
+
+#~ msgid "Step 2: Choose one of the listed accomodations."
+#~ msgstr "Step 2: Choose one of the listed accommodations."
+
+#~ msgid "No accomodations found matching the specified date and/or amenities."
+#~ msgstr ""
+#~ "No accomodations found matching the specified date and/or amenities."
+
+#~ msgid "Demo Amenitiy Set"
+#~ msgstr "Demo Amenity Set"
+
+#~ msgid "Guest Information"
+#~ msgstr "Guest Information"
+
+#~ msgid "Payment Gateway Name"
+#~ msgstr "Payment Gateway Name"
+
+#~ msgid "Payment Gateway User Name"
+#~ msgstr "Payment Gateway User Name"
+
+#~ msgid "Payment Gateway Password"
+#~ msgstr "Payment Gateway Password"
+
+#~ msgid "Payment Gateway Signature"
+#~ msgstr "Payment Gateway Signature"
+
+#~ msgid "Payment Gateway Test Mode"
+#~ msgstr "Payment Gateway Test Mode"
+
+#~ msgid "Payment Gateway Cancel URL"
+#~ msgstr "Payment Gateway Cancel URL"
+
+#~ msgid "Payment Gateway Return URL"
+#~ msgstr "Payment Gateway Return URL"
+
+#~ msgid "Payment Gateway Currency"
+#~ msgstr "Payment Gateway Currency"
+
+#~ msgid "Hospitality 1.0.4 is installed."
+#~ msgstr "Hospitality 1.0.4 is installed."
+
+#~ msgid "All Room Locations"
+#~ msgstr "All Room Locations"
+
+#~ msgid "All Amenity Sets"
+#~ msgstr "All Amenity Sets"
+
+#~ msgid "All Pricing Models"
+#~ msgstr "All Pricing Models"
+
+#~ msgid "Room Pricing"
+#~ msgstr "Room Pricing"
+
+#~ msgid "Room desciption excerpt length"
+#~ msgstr "Room desciption excerpt length"
+
+#~ msgid "Room listing default number of columns"
+#~ msgstr "Room listing default number of columns"
+
+#~ msgid "Use widget area instead of slider"
+#~ msgstr "Use widget area instead of slider"
+
+#~ msgid "The Colorpicker only allows valid hexadecimal values."
+#~ msgstr "The Colorpicker only allows valid hexadecimal values."
+
+#~ msgid "Send to Item"
+#~ msgstr "Send to Item"
+
+#~ msgid "Remove Media"
+#~ msgstr "Remove Media"
+
+#~ msgid "Are you sure you want to reset back to the defaults?"
+#~ msgstr "Are you sure you want to reset back to the defaults?"
+
+#~ msgid "You can't remove this! But you can edit the values."
+#~ msgstr "You can't remove this! But you can edit the values."
+
+#~ msgid "Are you sure you want to remove this?"
+#~ msgstr "Are you sure you want to remove this?"
+
+#~ msgid "Are you sure you want to activate this layout?"
+#~ msgstr "Are you sure you want to activate this layout?"
+
+#~ msgid "Sorry, you can't have settings three levels deep."
+#~ msgstr "Sorry, you can't have settings three levels deep."
+
+#~ msgid "Options Meta"
+#~ msgstr "Options Meta"
+
+#~ msgid "General"
+#~ msgstr "General"
+
+#~ msgid "Sample Text Field Label"
+#~ msgstr "Sample Text Field Label"
+
+#~ msgid "Description for the sample text field."
+#~ msgstr "Description for the sample text field."
+
+#~ msgid "Layout activated."
+#~ msgstr "Layout activated."
+
+#~ msgid "Settings updated."
+#~ msgstr "Settings updated."
+
+#~ msgid "Settings could not be saved."
+#~ msgstr "Settings could not be saved."
+
+#~ msgid "Settings Imported."
+#~ msgstr "Settings Imported."
+
+#~ msgid "Settings could not be imported."
+#~ msgstr "Settings could not be imported."
+
+#~ msgid "Data Imported."
+#~ msgstr "Data Imported."
+
+#~ msgid "Data could not be imported."
+#~ msgstr "Data could not be imported."
+
+#~ msgid "Layouts Imported."
+#~ msgstr "Layouts Imported."
+
+#~ msgid "Layouts could not be imported."
+#~ msgstr "Layouts could not be imported."
+
+#~ msgid "Layouts Updated."
+#~ msgstr "Layouts Updated."
+
+#~ msgid "Layouts could not be updated."
+#~ msgstr "Layouts could not be updated."
+
+#~ msgid "Left Sidebar"
+#~ msgstr "Left Sidebar"
+
+#~ msgid "Right Sidebar"
+#~ msgstr "Right Sidebar"
+
+#~ msgid "Full Width (no sidebar)"
+#~ msgstr "Full Width (no sidebar)"
+
+#~ msgid "Dual Sidebar"
+#~ msgstr "Dual Sidebar"
+
+#~ msgid "Left Dual Sidebar"
+#~ msgstr "Left Dual Sidebar"
+
+#~ msgid "Right Dual Sidebar"
+#~ msgstr "Right Dual Sidebar"
+
+#~ msgid "Image"
+#~ msgstr "Image"
+
+#~ msgid "Link"
+#~ msgstr "Link"
+
+#~ msgid "edit"
+#~ msgstr "edit"
+
+#~ msgid "Edit"
+#~ msgstr "Edit"
+
+#~ msgid "Delete"
+#~ msgstr "Delete"
+
+#~ msgid ""
+#~ "<strong>Section Title</strong>: Displayed as a menu item on the Theme "
+#~ "Options page."
+#~ msgstr ""
+#~ "<strong>Section Title</strong>: Displayed as a menu item on the Theme "
+#~ "Options page."
+
+#~ msgid ""
+#~ "<strong>Section ID</strong>: A unique lower case alphanumeric string, "
+#~ "underscores allowed."
+#~ msgstr ""
+#~ "<strong>Section ID</strong>: A unique lower case alphanumeric string, "
+#~ "underscores allowed."
+
+#~ msgid ""
+#~ "<strong>Label</strong>: Displayed as the label of a form element on the "
+#~ "Theme Options page."
+#~ msgstr ""
+#~ "<strong>Label</strong>: Displayed as the label of a form element on the "
+#~ "Theme Options page."
+
+#~ msgid ""
+#~ "<strong>ID</strong>: A unique lower case alphanumeric string, underscores "
+#~ "allowed."
+#~ msgstr ""
+#~ "<strong>ID</strong>: A unique lower case alphanumeric string, underscores "
+#~ "allowed."
+
+#~ msgid ""
+#~ "<strong>Type</strong>: Choose one of the available option types from the "
+#~ "dropdown."
+#~ msgstr ""
+#~ "<strong>Type</strong>: Choose one of the available option types from the "
+#~ "dropdown."
+
+#~ msgid ""
+#~ "<strong>Description</strong>: Enter a detailed description for the users "
+#~ "to read on the Theme Options page, HTML is allowed. This is also where "
+#~ "you enter content for both the Textblock & Textblock Titled option types."
+#~ msgstr ""
+#~ "<strong>Description</strong>: Enter a detailed description for the users "
+#~ "to read on the Theme Options page, HTML is allowed. This is also where "
+#~ "you enter content for both the Textblock & Textblock Titled option types."
+
+#~ msgid ""
+#~ "<strong>Choices</strong>: This will only affect the following option "
+#~ "types: Checkbox, Radio, Select & Select Image."
+#~ msgstr ""
+#~ "<strong>Choices</strong>: This will only affect the following option "
+#~ "types: Checkbox, Radio, Select & Select Image."
+
+#~ msgid "Add Choice"
+#~ msgstr "Add Choice"
+
+#~ msgid ""
+#~ "<strong>Settings</strong>: This will only affect the List Item option "
+#~ "type."
+#~ msgstr ""
+#~ "<strong>Settings</strong>: This will only affect the List Item option "
+#~ "type."
+
+#~ msgid "Add Setting"
+#~ msgstr "Add Setting"
+
+#~ msgid ""
+#~ "<strong>Standard</strong>: Setting the standard value for your option "
+#~ "only works for some option types. Read the <code>OptionTree-"
+#~ ">Documentation</code> for more information on which ones."
+#~ msgstr ""
+#~ "<strong>Standard</strong>: Setting the standard value for your option "
+#~ "only works for some option types. Read the <code>OptionTree-"
+#~ ">Documentation</code> for more information on which ones."
+
+#~ msgid ""
+#~ "<strong>Rows</strong>: Enter a numeric value for the number of rows in "
+#~ "your textarea. This will only affect the following option types: CSS, "
+#~ "Textarea, & Textarea Simple."
+#~ msgstr ""
+#~ "<strong>Rows</strong>: Enter a numeric value for the number of rows in "
+#~ "your textarea. This will only affect the following option types: CSS, "
+#~ "Textarea, & Textarea Simple."
+
+#~ msgid ""
+#~ "<strong>Post Type</strong>: Add a comma separated list of post type like "
+#~ "'post,page'. This will only affect the following option types: Custom "
+#~ "Post Type Checkbox, & Custom Post Type Select."
+#~ msgstr ""
+#~ "<strong>Post Type</strong>: Add a comma separated list of post type like "
+#~ "'post,page'. This will only affect the following option types: Custom "
+#~ "Post Type Checkbox, & Custom Post Type Select."
+
+#~ msgid ""
+#~ "<strong>Taxonomy</strong>: Add a comma separated list of any registered "
+#~ "taxonomy like 'category,post_tag'. This will only affect the following "
+#~ "option types: Taxonomy Checkbox, & Taxonomy Select."
+#~ msgstr ""
+#~ "<strong>Taxonomy</strong>: Add a comma separated list of any registered "
+#~ "taxonomy like 'category,post_tag'. This will only affect the following "
+#~ "option types: Taxonomy Checkbox, & Taxonomy Select."
+
+#~ msgid ""
+#~ "<strong>CSS Class</strong>: Add and optional class to this option type."
+#~ msgstr ""
+#~ "<strong>CSS Class</strong>: Add and optional class to this option type."
+
+#~ msgid "Label"
+#~ msgstr "Label"
+
+#~ msgid "Value"
+#~ msgstr "Value"
+
+#~ msgid "Image Source (Radio Image only)"
+#~ msgstr "Image Source (Radio Image only)"
+
+#~ msgid ""
+#~ "<strong>Title</strong>: Displayed as a contextual help menu item on the "
+#~ "Theme Options page."
+#~ msgstr ""
+#~ "<strong>Title</strong>: Displayed as a contextual help menu item on the "
+#~ "Theme Options page."
+
+#~ msgid ""
+#~ "<strong>Content</strong>: Enter the HTML content about this contextual "
+#~ "help item displayed on the Theme Option page for end users to read."
+#~ msgstr ""
+#~ "<strong>Content</strong>: Enter the HTML content about this contextual "
+#~ "help item displayed on the Theme Option page for end users to read."
+
+#~ msgid "Layout"
+#~ msgstr "Layout"
+
+#~ msgid "Activate"
+#~ msgstr "Activate"
+
+#~ msgid "Title"
+#~ msgstr "Title"
+
+#~ msgid "New Layout"
+#~ msgstr "New Layout"
+
+#~ msgid "Sorry, this function does not exist"
+#~ msgstr "Sorry, this function does not exist"
+
+#~ msgid "background-repeat"
+#~ msgstr "background-repeat"
+
+#~ msgid "background-attachment"
+#~ msgstr "background-attachment"
+
+#~ msgid "background-position"
+#~ msgstr "background-position"
+
+#~ msgid "Add Media"
+#~ msgstr "Add Media"
+
+#~ msgid "No Categories Found"
+#~ msgstr "No Categories Found"
+
+#~ msgid "No Posts Found"
+#~ msgstr "No Posts Found"
+
+#~ msgid ""
+#~ "You can re-order with drag & drop, the order will update after saving."
+#~ msgstr ""
+#~ "You can re-order with drag & drop, the order will update after saving."
+
+#~ msgid "No Pages Found"
+#~ msgstr "No Pages Found"
+
+#~ msgid "No Tags Found"
+#~ msgstr "No Tags Found"
+
+#~ msgid "No Taxonomies Found"
+#~ msgstr "No Taxonomies Found"
